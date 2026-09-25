@@ -1,0 +1,71 @@
+[2026-09-23T07:19:25.650Z][INFO] Command-line: /home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager server -s 18357 --ipc-path /tmp/Unity-Upm-18357.sock -l 2 --log-file "/home/lucie/Milo's Hospital/Logs/upm.log"
+[2026-09-23T07:19:25.689Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-18357.sock).
+[2026-09-23T07:19:25.690Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-18357.
+[2026-09-23T07:19:28.121Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:19:28.135Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:19:28.469Z][INFO] project:list-packages --> 200 (348 ms)
+[2026-09-23T07:19:30.907Z][INFO] project:list-packages --> 200 (2772 ms)
+[2026-09-23T07:19:31.033Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-23T07:19:31.039Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-09-23T07:19:31.627Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:19:31.794Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-09-23T07:19:31.899Z][INFO] project:list-packages --> 200 (272 ms)
+[2026-09-23T07:19:32.129Z][WARN] Requested version [1.0.3] for package [com.unity.settings-manager] overridden by minimum version [2.1.1].
+[2026-09-23T07:19:32.131Z][INFO] project:resolve-packages --> 200 (337 ms)
+[2026-09-23T07:20:16.762Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:16.872Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:17.146Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:17.397Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-23T07:20:17.410Z][INFO] project:list-packages --> 200 (647 ms)
+[2026-09-23T07:20:17.533Z][INFO] config:project:get-registries --> 200 (136 ms)
+[2026-09-23T07:20:17.615Z][INFO] project:list-packages --> 200 (743 ms)
+[2026-09-23T07:20:17.849Z][INFO] project:list-packages --> 200 (704 ms)
+[2026-09-23T07:20:23.826Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:24.183Z][INFO] project:list-packages --> 200 (357 ms)
+[2026-09-23T07:20:25.093Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:25.398Z][INFO] project:list-packages --> 200 (304 ms)
+[2026-09-23T07:20:31.012Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:31.063Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:31.295Z][INFO] project:list-packages --> 200 (284 ms)
+[2026-09-23T07:20:31.398Z][INFO] project:list-packages --> 200 (335 ms)
+[2026-09-23T07:20:31.400Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:31.595Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-23T07:20:31.611Z][INFO] config:project:get-registries --> 200 (16 ms)
+[2026-09-23T07:20:31.696Z][INFO] project:list-packages --> 200 (296 ms)
+[2026-09-23T07:20:38.304Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:38.319Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:20:38.605Z][INFO] project:list-packages --> 200 (286 ms)
+[2026-09-23T07:22:29.133Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:22:29.150Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-09-23T07:22:29.158Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-09-23T07:22:29.170Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:22:29.237Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-09-23T07:22:29.250Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-09-23T07:22:29.284Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-23T07:22:39.397Z][INFO] packages:get-all-packageinfo --> 200 (10239 ms)
+[2026-09-23T07:22:39.401Z][INFO] packages:get-all-packageinfo --> 200 (10151 ms)
+[2026-09-23T07:26:08.497Z][INFO] Received shutdown request (SIGINT), shutting down Unity Package Manager
