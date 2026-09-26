@@ -22224,3 +22224,405 @@ Asset Pipeline Refresh (id=5654aa6127df9e1fdb6c0ad585640830): Total: 0.048 secon
 Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
 Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: 'f4cdd5fa4ab54d62e6a1c03e8be5a479') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=024c942fddc2cb857ccb9edff708c760 DependenciesID=bb999cd5dfb637e2ac028ff1fcf0ef3d StaticDependenciesID=12b2c36ed6b7dbbc9f7e27cfe45d0396 
 Asset Pipeline Refresh (id=36c4067b62f42c824b3b28a35eb589a1): Total: 0.038 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=6cfc417a7cab0973aa9c93231f63a278): Total: 0.124 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=5f2b125969f463a05b39f4e0b2ca0258): Total: 0.196 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Starting: /home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/lucie/Milo's Hospital
+ExitCode: 0 Duration: 0s473ms
+[ 842/1126  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1122/1126  0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1123/1126  0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll, with 139 defines and 373 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1124/1126  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1125/1126  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (0.39 seconds), 5 items updated, 1126 evaluated
+Total cache size 69619364
+Total cache size after purge 69619364, took 00:00:00.0588541
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Unhandled description string [
+Unhandled description string ]
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+Unhandled description string [
+Unhandled description string ]
+- Finished resetting the current domain, in  3.092 seconds
+Domain Reload Profiling: 4691ms
+	BeginReloadAssembly (1049ms)
+		DisableScriptedObjects (221ms)
+		CreateAndSetChildDomain (524ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (163ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (215ms)
+			BuildScriptInfoCaches (187ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (3093ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (743ms)
+			ProcessInitializeOnLoadAttributes (581ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (956ms)
+
+Asset Pipeline Refresh (id=e616f7a3f6946fa79b7434f52eaf3c7f): Total: 4.931 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3249 ms
+		Asset DB Callback time: managed=44 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1634 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1516, non-scripts=2849
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.638ms
+	ApplyChangesToAssetFolders: 0.509ms
+	Collect global state as custom dependencies: 3.679ms
+	ProcessAssetsWithTransientArtifactChanges: 9.978ms
+	CategorizeAssets: 71.328ms
+	CompileScripts: 1.754ms
+	ImportOutOfDateAssets: 3101.744ms (3099.276ms without children)
+		CollectScriptTypesHashes: 1.788ms
+		ReloadNativeAssets: 0.880ms
+		UnloadImportedAssets: 0.148ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.791ms
+		ImportSchedulerStart: 0.596ms
+	PostProcessAllAssets: 44.438ms
+		MonoPostProcessAllAssets: 44.434ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 20.574ms
+			SyncVS.PostprocessSyncProject 2.467ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.319ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.132ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.032ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.014ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.919ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.846ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.607ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.338ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.327ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.308ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.195ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.189ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.163ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.122ms
+			AssetChangedListener.OnPostprocessAllAssets 0.086ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.072ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.054ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.807ms
+	PersistCurrentRevisions: 0.239ms
+	GenerateScriptTypeHashes: 2.703ms
+	GenerateScriptTypeSerializationHashes: 4.668ms
+	Untracked: 1692.905ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Asset Pipeline Refresh (id=e61ec3c46015d8834b0327c8281aea90): Total: 0.174 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Starting: /home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/lucie/Milo's Hospital
+ExitCode: 0 Duration: 0s487ms
+[ 842/1126  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1122/1126  0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1123/1126  0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll, with 139 defines and 373 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1124/1126  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1125/1126  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (0.39 seconds), 5 items updated, 1126 evaluated
+Total cache size 69619364
+Total cache size after purge 69619364, took 00:00:00.0260429
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Unhandled description string [
+Unhandled description string ]
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+Unhandled description string [
+Unhandled description string ]
+- Finished resetting the current domain, in  2.279 seconds
+Domain Reload Profiling: 3405ms
+	BeginReloadAssembly (641ms)
+		DisableScriptedObjects (152ms)
+		CreateAndSetChildDomain (334ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (97ms)
+		TypeCache.Refresh (10ms)
+		AnalyzeDomain (195ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2280ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (9ms)
+			BeforeProcessingInitializeOnLoad (281ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (869ms)
+
+Asset Pipeline Refresh (id=7a75163ac9bac6875944c0dfcaf0a44f): Total: 4.065 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2815 ms
+		Asset DB Callback time: managed=42 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1167 ms, compile time=39 ms, other=0 ms
+		Project Asset Count: scripts=1516, non-scripts=2849
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.438ms
+	ApplyChangesToAssetFolders: 0.362ms
+	Scan: 397.987ms
+	Collect global state as custom dependencies: 3.127ms
+	ProcessAssetsWithTransientArtifactChanges: 3.434ms
+	CategorizeAssets: 65.588ms
+	CompileScripts: 39.355ms
+	ImportOutOfDateAssets: 2287.681ms (2285.043ms without children)
+		CollectScriptTypesHashes: 1.355ms
+		ReloadNativeAssets: 0.980ms
+		UnloadImportedAssets: 0.216ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.743ms
+		ImportSchedulerStart: 0.656ms
+	PostProcessAllAssets: 42.697ms
+		MonoPostProcessAllAssets: 42.693ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 19.691ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.619ms
+			AssetPostprocessor.OnPostprocessAllAssets 5.413ms
+			AssetChangedListener.OnPostprocessAllAssets 5.381ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.539ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.400ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.160ms
+			SyncVS.PostprocessSyncProject 2.123ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.353ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.167ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.059ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.867ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.828ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.752ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.702ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.607ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.558ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.534ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.478ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.398ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.355ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.337ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.330ms
+			PostProcessor.OnPostprocessAllAssets 0.273ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.263ms
+			AssetEvents.OnPostprocessAllAssets 0.254ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.205ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.187ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.167ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.166ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.153ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.150ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.147ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.145ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.137ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.131ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.089ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.080ms
+			AssetProcessor.OnPostprocessAllAssets 0.064ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.506ms
+	PersistCurrentRevisions: 0.241ms
+	GenerateScriptTypeHashes: 2.649ms
+	GenerateScriptTypeSerializationHashes: 4.771ms
+	Untracked: 1221.781ms
+
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+SpriteAtlasPacking completed in 0.006046 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            77.274 ms
+	Integration:            413.314 ms
+	Integration of assets:  0.076 ms
+	Thread Wait Time:       -0.068 ms
+	Total Operation Time:   490.596 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.536 ms
+	Integration:            22.853 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.114 ms
+	Total Operation Time:   24.509 ms
+Unloading 173 unused Assets / (0.8 MB). Loaded Objects now: 9346.
+Memory consumption went from 366.3 MB to 365.5 MB.
+Total: 28.118610 ms (FindLiveObjects: 0.712229 ms CreateObjectMapping: 0.248964 ms MarkObjects: 25.027169 ms  DeleteObjects: 1.652023 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Asset Pipeline Refresh (id=e75b4ac4b6a27cf32bc4633e8d4e2622): Total: 0.294 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Starting: /home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/lucie/Milo's Hospital
+ExitCode: 0 Duration: 0s386ms
+[ 842/1126  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1122/1126  0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1123/1126  0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll, with 139 defines and 373 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1124/1126  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1125/1126  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (0.31 seconds), 5 items updated, 1126 evaluated
+Total cache size 69619364
+Total cache size after purge 69619364, took 00:00:00.0281499
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Unhandled description string [
+Unhandled description string ]
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+Unhandled description string [
+Unhandled description string ]
+- Finished resetting the current domain, in  2.210 seconds
+Domain Reload Profiling: 3381ms
+	BeginReloadAssembly (688ms)
+		DisableScriptedObjects (134ms)
+		CreateAndSetChildDomain (368ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (92ms)
+		TypeCache.Refresh (10ms)
+		AnalyzeDomain (197ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2212ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (321ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (786ms)
+
+Asset Pipeline Refresh (id=755347c04de7b0cfbb6a943a06f42a41): Total: 4.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2704 ms
+		Asset DB Callback time: managed=47 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1221 ms, compile time=34 ms, other=0 ms
+		Project Asset Count: scripts=1516, non-scripts=2849
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.455ms
+	ApplyChangesToAssetFolders: 0.630ms
+	Scan: 356.918ms
+	Collect global state as custom dependencies: 3.429ms
+	ProcessAssetsWithTransientArtifactChanges: 3.729ms
+	CategorizeAssets: 66.758ms
+	CompileScripts: 34.309ms
+	ImportOutOfDateAssets: 2220.020ms (2217.570ms without children)
+		CollectScriptTypesHashes: 2.202ms
+		ReloadNativeAssets: 0.999ms
+		UnloadImportedAssets: 0.207ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.723ms
+		ImportSchedulerStart: 0.465ms
+	PostProcessAllAssets: 47.040ms
+		MonoPostProcessAllAssets: 47.035ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 24.217ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.306ms
+			AssetPostprocessor.OnPostprocessAllAssets 6.813ms
+			AssetChangedListener.OnPostprocessAllAssets 6.195ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 3.764ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.357ms
+			SyncVS.PostprocessSyncProject 2.257ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.963ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.772ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.180ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.030ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.025ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.003ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.985ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.948ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.907ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.803ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.726ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.618ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.543ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.449ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.381ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.373ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.358ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.351ms
+			PostProcessor.OnPostprocessAllAssets 0.336ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.295ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.290ms
+			AssetEvents.OnPostprocessAllAssets 0.256ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.231ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.226ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.222ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.211ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.193ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.183ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.165ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.123ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.120ms
+			AssetProcessor.OnPostprocessAllAssets 0.074ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.611ms
+	PersistCurrentRevisions: 0.273ms
+	GenerateScriptTypeHashes: 2.816ms
+	GenerateScriptTypeSerializationHashes: 4.889ms
+	Untracked: 1270.107ms
+
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+SpriteAtlasPacking completed in 0.005616 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            67.984 ms
+	Integration:            389.010 ms
+	Integration of assets:  0.050 ms
+	Thread Wait Time:       -0.047 ms
+	Total Operation Time:   456.997 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.361 ms
+	Integration:            21.044 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.001 ms
+	Total Operation Time:   22.410 ms
+Unloading 15 unused Assets / (0.5 MB). Loaded Objects now: 9350.
+Memory consumption went from 358.9 MB to 358.4 MB.
+Total: 28.160673 ms (FindLiveObjects: 0.649161 ms CreateObjectMapping: 0.235530 ms MarkObjects: 26.649808 ms  DeleteObjects: 0.141279 ms)
+
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 

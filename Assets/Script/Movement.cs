@@ -36,13 +36,9 @@ namespace Script
     
         private void HandleMovement()
         {
-            float targetSpeedHorizontal = _move[0] * moveSpeed;
-            float diffHorizontal = targetSpeedHorizontal - _rigidbody2D.linearVelocity.x;
-            _rigidbody2D.AddForce(Vector2.right * diffHorizontal, ForceMode2D.Impulse);
-            
-            float targetSpeedVertical = _move[1] * moveSpeed;
-            float diffVertical = targetSpeedVertical - _rigidbody2D.linearVelocity.y;
-            _rigidbody2D.AddForce(Vector2.up * diffVertical, ForceMode2D.Impulse);
+            Vector2 targetSpeed = _move * moveSpeed;
+            Vector2 diff = targetSpeed - _rigidbody2D.linearVelocity;
+            _rigidbody2D.AddForce(Vector2.one * diff, ForceMode2D.Impulse);
         }
     }
 }
