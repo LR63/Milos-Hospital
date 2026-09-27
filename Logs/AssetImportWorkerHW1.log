@@ -7,29 +7,20 @@ Distro version:          #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38
 Kernel version:          7.0.0-34-generic
 Architecture:            x86_64
 Available memory:        15609 MB
-Date:                    2026-09-26T22:00:59Z
+Date:                    2026-09-27T11:59:55Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lucie" at "2026-09-26T22:00:59.813062Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lucie" at "2026-09-27T11:59:55.234995Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              ce385076b7764e448cfae82ea9935175
-  Correlation Id:          5b6c5896c0e5be492c5aa93063c9a87e
-  External correlation Id: 8970710998154566146
+  Session Id:              9c862b67cb4e4e60aff9f1a0c72ce775
+  Correlation Id:          3fcc9e9481a6fbd012968db8ecfc2258
+  External correlation Id: 6272633442145129327
   Machine Id:              lGHZjV74YX2wCzipJ+We+tdUTAQ=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lucie" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lucie-notifications" at "2026-09-26T22:00:59.815254Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lucie-notifications" at "2026-09-27T11:59:55.237636Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
-Initialising UDS system complete:
-  - System type: Client
-  - Resource namespace: 854c4a79dc322eaffc7dd3c1d1b77490
-  - Shared memory size: 1073741824
-  - Command buffer id: 1052624
-  - Command buffer size: 8192
-  - Hashmap size: 4194304
-  - Service connected: true
-  - Service working directory: Library/DataStore/
 Desktop is 2880 x 1800 @ 60 Hz
 Initialize udev device monitor.
 
@@ -45,9 +36,9 @@ AssetImportWorkerHW1
 -logFile
 Logs/AssetImportWorkerHW1.log
 -srvPort
-35785
+36251
 -parentPid
-7881
+12613
 -analyticsCloudUserId
 1375785495396
 -analyticsLocalProjectId
@@ -107,25 +98,34 @@ Successfully changed project path to: /home/lucie/Milo's Hospital
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [136831357843904]  Target information:
+Player connection [134881613515200]  Target information:
 
-Player connection [136831357843904]  * "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 351014490 [EditorId] 351014490 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [134881613515200]  * "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 2161802060 [EditorId] 2161802060 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [136831357843904]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 351014490 [EditorId] 351014490 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [134881613515200]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2161802060 [EditorId] 2161802060 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [136831357843904]  * "[IP] 172.20.0.1 [Port] 0 [Flags] 2 [Guid] 351014490 [EditorId] 351014490 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [134881613515200]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 2161802060 [EditorId] 2161802060 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [136831357843904]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 351014490 [EditorId] 351014490 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [134881613515200]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 2161802060 [EditorId] 2161802060 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [136831357843904]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 351014490 [EditorId] 351014490 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [134881613515200]  * "[IP] 172.20.0.1 [Port] 0 [Flags] 2 [Guid] 2161802060 [EditorId] 2161802060 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.43) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [136831357843904] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [136831357843904] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [134881613515200] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [134881613515200] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 854c4a79dc322eaffc7dd3c1d1b77490
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052624
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -173,8 +173,8 @@ GfxDevice: creating device client; kGfxThreadingModeThreaded
 [vulkan] Loaded instance function vkGetPhysicalDeviceProperties
 [vulkan] Loaded instance function vkEnumeratePhysicalDevices
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x58bab1f59590 [0]: "Intel(R) Iris(R) Xe Graphics (ADL GT2)" deviceType=1 vendorID=8086 deviceID=46a6
-[Vulkan init] Physical Device 0x58bab1be30b0 [1]: "llvmpipe (LLVM 20.1.2, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Physical Device 0x626b0900a200 [0]: "Intel(R) Iris(R) Xe Graphics (ADL GT2)" deviceType=1 vendorID=8086 deviceID=46a6
+[Vulkan init] Physical Device 0x626b0900a1d0 [1]: "llvmpipe (LLVM 20.1.2, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
 Vulkan detection: 2
 [Vulkan init] extensions: count=24
 [Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
@@ -263,9 +263,9 @@ Vulkan detection: 2
 [vulkan] Loaded instance function vkCmdEndDebugUtilsLabelEXT
 [vulkan] Loaded instance function vkCmdInsertDebugUtilsLabelEXT
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x58bab1e62d10 [0]: "Intel(R) Iris(R) Xe Graphics (ADL GT2)" deviceType=1 vendorID=8086 deviceID=46a6
-[Vulkan init] Physical Device 0x58bab1e62c30 [1]: "llvmpipe (LLVM 20.1.2, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
-[Vulkan init] Selected physical device 0x58bab1e62d10
+[Vulkan init] Physical Device 0x626b09003cf0 [0]: "Intel(R) Iris(R) Xe Graphics (ADL GT2)" deviceType=1 vendorID=8086 deviceID=46a6
+[Vulkan init] Physical Device 0x626b08db71f0 [1]: "llvmpipe (LLVM 20.1.2, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Selected physical device 0x626b09003cf0
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=178
 [Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
@@ -602,12 +602,12 @@ Mono path[0] = '/home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Managed'
 Mono path[1] = '/home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56878
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56847
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001098 seconds.
+Registered in 0,001497 seconds.
 Native extension for LinuxStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -618,23 +618,24 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0,583 seconds
-Domain Reload Profiling: 1184ms
-	BeginReloadAssembly (85ms)
-	RebuildCommonClasses (5ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (422ms)
-		LoadAssemblies (84ms)
-		TypeCache.Refresh (272ms)
-			TypeCache.ScanAssembly (255ms)
+- Finished resetting the current domain, in  0,786 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (127ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (511ms)
+		LoadAssemblies (125ms)
+		TypeCache.Refresh (343ms)
+			TypeCache.ScanAssembly (320ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (584ms)
+	FinalizeReload (788ms)
 		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (230ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (312ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -657,43 +658,52 @@ Native extension for LinuxStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1,963 seconds
-Domain Reload Profiling: 3247ms
-	BeginReloadAssembly (304ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (825ms)
-		LoadAssemblies (391ms)
-		TypeCache.Refresh (190ms)
-			TypeCache.ScanAssembly (172ms)
-		AnalyzeDomain (99ms)
-			BuildScriptInfoCaches (90ms)
+- Finished resetting the current domain, in  1,061 seconds
+Domain Reload Profiling: 2165ms
+	BeginReloadAssembly (250ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (770ms)
+		LoadAssemblies (331ms)
+		TypeCache.Refresh (218ms)
+			TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (109ms)
+			BuildScriptInfoCaches (99ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1966ms)
+	FinalizeReload (1062ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (259ms)
-			ProcessInitializeOnLoadAttributes (576ms)
-			ProcessInitializeOnLoadMethodAttributes (571ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (3ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (268ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 AutoLocale: current locale expects 'C' but got 'fr_FR.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6595 unused Assets / (6.1 MB). Loaded Objects now: 7631.
-Memory consumption went from 218.8 MB to 212.7 MB.
-Total: 27.378092 ms (FindLiveObjects: 1.271549 ms CreateObjectMapping: 1.062775 ms MarkObjects: 19.456318 ms  DeleteObjects: 4.945945 ms)
+Unloading 6595 unused Assets / (6.4 MB). Loaded Objects now: 7631.
+Memory consumption went from 220.7 MB to 214.3 MB.
+Total: 16.559518 ms (FindLiveObjects: 1.045961 ms CreateObjectMapping: 0.869373 ms MarkObjects: 10.567690 ms  DeleteObjects: 3.458991 ms)
 
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (3.1 MB). Loaded Objects now: 7631.
+Memory consumption went from 214.6 MB to 211.5 MB.
+Total: 12.452078 ms (FindLiveObjects: 0.895035 ms CreateObjectMapping: 0.353414 ms MarkObjects: 10.002074 ms  DeleteObjects: 0.580646 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -706,79 +716,48 @@ Native extension for LinuxStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.017 seconds
-Domain Reload Profiling: 1859ms
-	BeginReloadAssembly (314ms)
-		DisableScriptedObjects (36ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (447ms)
-		LoadAssemblies (303ms)
-		TypeCache.Refresh (8ms)
-		AnalyzeDomain (11ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1019ms)
+- Finished resetting the current domain, in  1.295 seconds
+Domain Reload Profiling: 2651ms
+	BeginReloadAssembly (462ms)
+		DisableScriptedObjects (33ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (782ms)
+		LoadAssemblies (463ms)
+		TypeCache.Refresh (15ms)
+		AnalyzeDomain (235ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1297ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (167ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (219ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (6ms)
 		AwakeInstancesAfterBackupRestoration (50ms)
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.6 MB). Loaded Objects now: 7634.
-Memory consumption went from 218.4 MB to 212.8 MB.
-Total: 16.447474 ms (FindLiveObjects: 1.129342 ms CreateObjectMapping: 0.572272 ms MarkObjects: 11.331806 ms  DeleteObjects: 2.733486 ms)
+Unloading 6593 unused Assets / (5.8 MB). Loaded Objects now: 7634.
+Memory consumption went from 221.5 MB to 215.8 MB.
+Total: 19.339277 ms (FindLiveObjects: 1.343800 ms CreateObjectMapping: 0.948396 ms MarkObjects: 13.652280 ms  DeleteObjects: 2.572943 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-09-26T22:01:13.237216Z
-  Time since last request: 1344.73457623500008 seconds.
+  Time of request: 2026-09-27T12:02:48.014718Z
+  Time since last request: 2281.2052381389999 seconds.
   importAddress: GUID: 89855cb166840482cbf9597485319d9e - Path: Assets/Script/Movement.cs - Importer: PreviewImporter
 Importing 'GUID: 89855cb166840482cbf9597485319d9e - Path: Assets/Script/Movement.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 89855cb166840482cbf9597485319d9e' -> (Import Result ID: 'd76f5b83be0e6050cf249cc422dac98f') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c399b9c6368be1aefbb770e5f4d5189 DependenciesID=4717c6efb3631290ee77728f9fe69374 StaticDependenciesID=91a57d7614ade171c9a6fe536186f168 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-26T22:01:19.091326Z
-  Time since last request: 5.827393257 seconds.
-  importAddress: GUID: 89855cb166840482cbf9597485319d9e - Path: Assets/Script/Movement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 89855cb166840482cbf9597485319d9e - Path: Assets/Script/Movement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 89855cb166840482cbf9597485319d9e' -> (Import Result ID: 'e3df3f95898123b625afbdeaa72d8101') in 0.097 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090c351a1d2b1f772b3c7b248ade48eb DependenciesID=f69301dc24a54c27297e3bb125920720 StaticDependenciesID=97c761a214854173033727aba4456841 
+Imported 'GUID: 89855cb166840482cbf9597485319d9e' -> (Import Result ID: '55eb628dbc2a60c253b502071f4a5976') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c399b9c6368be1aefbb770e5f4d5189 DependenciesID=620af7f92d7cc93ace8c3d2cb5f0705e StaticDependenciesID=44138b3b9e8a5d5b01ec00072e22ba64 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.4 MB). Loaded Objects now: 7636.
-Memory consumption went from 219.4 MB to 214.1 MB.
-Total: 17.708649 ms (FindLiveObjects: 1.301103 ms CreateObjectMapping: 0.513300 ms MarkObjects: 12.676579 ms  DeleteObjects: 2.469120 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-26T22:04:45.115974Z
-  Time since last request: 205.91265265999999 seconds.
-  importAddress: GUID: 89855cb166840482cbf9597485319d9e - Path: Assets/Script/Movement.cs - Importer: PreviewImporter
-Importing 'GUID: 89855cb166840482cbf9597485319d9e - Path: Assets/Script/Movement.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 89855cb166840482cbf9597485319d9e' -> (Import Result ID: '06c4a89325a0f04ba70cf79bf95065b7') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c399b9c6368be1aefbb770e5f4d5189 DependenciesID=11a696fb2f03dfb78dd6d01471e9959b StaticDependenciesID=d0b742ca685e6c454f78cafd2cda9c45 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -791,350 +770,55 @@ Native extension for LinuxStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.801 seconds
-Domain Reload Profiling: 2084ms
-	BeginReloadAssembly (293ms)
-		DisableScriptedObjects (20ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (864ms)
-		LoadAssemblies (462ms)
-		TypeCache.Refresh (19ms)
-		AnalyzeDomain (262ms)
-			BuildScriptInfoCaches (251ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (803ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (219ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.4 MB). Loaded Objects now: 7638.
-Memory consumption went from 222.5 MB to 216.0 MB.
-Total: 12.207986 ms (FindLiveObjects: 0.857684 ms CreateObjectMapping: 0.502752 ms MarkObjects: 8.205079 ms  DeleteObjects: 2.133637 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.9 MB). Loaded Objects now: 7638.
-Memory consumption went from 222.7 MB to 216.8 MB.
-Total: 16.591736 ms (FindLiveObjects: 1.423919 ms CreateObjectMapping: 0.634267 ms MarkObjects: 11.940790 ms  DeleteObjects: 1.968548 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.6 MB). Loaded Objects now: 7638.
-Memory consumption went from 222.7 MB to 217.1 MB.
-Total: 13.166512 ms (FindLiveObjects: 1.432031 ms CreateObjectMapping: 0.521725 ms MarkObjects: 8.754355 ms  DeleteObjects: 1.901999 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.5 MB). Loaded Objects now: 7638.
-Memory consumption went from 222.8 MB to 217.3 MB.
-Total: 13.202017 ms (FindLiveObjects: 1.142551 ms CreateObjectMapping: 0.568333 ms MarkObjects: 9.030405 ms  DeleteObjects: 1.925531 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.135 seconds
-Domain Reload Profiling: 2513ms
-	BeginReloadAssembly (339ms)
-		DisableScriptedObjects (18ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (925ms)
-		LoadAssemblies (473ms)
-		TypeCache.Refresh (18ms)
-		AnalyzeDomain (254ms)
-			BuildScriptInfoCaches (240ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1137ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (185ms)
-			ProcessInitializeOnLoadAttributes (327ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (3ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.4 MB). Loaded Objects now: 7640.
-Memory consumption went from 222.7 MB to 217.3 MB.
-Total: 19.420706 ms (FindLiveObjects: 1.343793 ms CreateObjectMapping: 2.059325 ms MarkObjects: 13.002307 ms  DeleteObjects: 2.374409 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.3 MB). Loaded Objects now: 7640.
-Memory consumption went from 222.9 MB to 216.6 MB.
-Total: 25.714251 ms (FindLiveObjects: 1.889637 ms CreateObjectMapping: 1.316619 ms MarkObjects: 17.469415 ms  DeleteObjects: 4.002386 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.225 seconds
-Domain Reload Profiling: 2490ms
-	BeginReloadAssembly (346ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (97ms)
+- Finished resetting the current domain, in  0.961 seconds
+Domain Reload Profiling: 2190ms
+	BeginReloadAssembly (278ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (59ms)
 	RebuildCommonClasses (13ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (822ms)
-		LoadAssemblies (454ms)
-		TypeCache.Refresh (13ms)
-		AnalyzeDomain (252ms)
-			BuildScriptInfoCaches (239ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1227ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (198ms)
-			ProcessInitializeOnLoadAttributes (325ms)
-			ProcessInitializeOnLoadMethodAttributes (182ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (12ms)
-		AwakeInstancesAfterBackupRestoration (68ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.0 MB). Loaded Objects now: 7642.
-Memory consumption went from 222.9 MB to 217.9 MB.
-Total: 18.476509 ms (FindLiveObjects: 1.757783 ms CreateObjectMapping: 1.329112 ms MarkObjects: 11.478883 ms  DeleteObjects: 3.191337 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.4 MB). Loaded Objects now: 7642.
-Memory consumption went from 223.1 MB to 217.7 MB.
-Total: 11.951001 ms (FindLiveObjects: 0.798140 ms CreateObjectMapping: 0.485751 ms MarkObjects: 8.082396 ms  DeleteObjects: 2.045928 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.790 seconds
-Domain Reload Profiling: 2019ms
-	BeginReloadAssembly (361ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (98ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (774ms)
-		LoadAssemblies (449ms)
-		TypeCache.Refresh (13ms)
-		AnalyzeDomain (217ms)
-			BuildScriptInfoCaches (207ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (791ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (215ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.2 MB). Loaded Objects now: 7644.
-Memory consumption went from 223.0 MB to 217.8 MB.
-Total: 12.466490 ms (FindLiveObjects: 1.191990 ms CreateObjectMapping: 0.705726 ms MarkObjects: 7.929879 ms  DeleteObjects: 2.161625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.2 MB). Loaded Objects now: 7644.
-Memory consumption went from 223.2 MB to 217.1 MB.
-Total: 16.344192 ms (FindLiveObjects: 1.141296 ms CreateObjectMapping: 0.467717 ms MarkObjects: 11.279030 ms  DeleteObjects: 2.790196 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.937 seconds
-Domain Reload Profiling: 1937ms
-	BeginReloadAssembly (282ms)
-		DisableScriptedObjects (25ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (641ms)
-		LoadAssemblies (324ms)
-		TypeCache.Refresh (10ms)
-		AnalyzeDomain (192ms)
-			BuildScriptInfoCaches (183ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (939ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (857ms)
+		LoadAssemblies (476ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (228ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (963ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (177ms)
-			ProcessInitializeOnLoadAttributes (285ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (269ms)
 			ProcessInitializeOnLoadMethodAttributes (109ms)
 			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.7 MB). Loaded Objects now: 7646.
-Memory consumption went from 223.3 MB to 216.5 MB.
-Total: 14.498477 ms (FindLiveObjects: 0.977211 ms CreateObjectMapping: 0.513588 ms MarkObjects: 10.181100 ms  DeleteObjects: 2.175820 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.3 MB). Loaded Objects now: 7646.
-Memory consumption went from 223.5 MB to 217.2 MB.
-Total: 13.264712 ms (FindLiveObjects: 1.081133 ms CreateObjectMapping: 0.668341 ms MarkObjects: 8.840135 ms  DeleteObjects: 2.184313 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.787 seconds
-Domain Reload Profiling: 1817ms
-	BeginReloadAssembly (259ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (678ms)
-		LoadAssemblies (354ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (210ms)
-			BuildScriptInfoCaches (200ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (788ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (5ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.0 MB). Loaded Objects now: 7648.
-Memory consumption went from 223.4 MB to 217.4 MB.
-Total: 12.621496 ms (FindLiveObjects: 1.114846 ms CreateObjectMapping: 0.668790 ms MarkObjects: 8.328835 ms  DeleteObjects: 2.011031 ms)
+Unloading 6593 unused Assets / (7.8 MB). Loaded Objects now: 7638.
+Memory consumption went from 222.4 MB to 214.6 MB.
+Total: 18.828639 ms (FindLiveObjects: 0.965731 ms CreateObjectMapping: 0.500992 ms MarkObjects: 13.786156 ms  DeleteObjects: 2.856572 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (3.1 MB). Loaded Objects now: 7638.
+Memory consumption went from 218.8 MB to 215.7 MB.
+Total: 12.511640 ms (FindLiveObjects: 0.925386 ms CreateObjectMapping: 0.321922 ms MarkObjects: 9.996963 ms  DeleteObjects: 0.658140 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-27T12:05:45.451335Z
+  Time since last request: 177.40349692000001 seconds.
+  importAddress: GUID: 89855cb166840482cbf9597485319d9e - Path: Assets/Script/PlayerMovement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 89855cb166840482cbf9597485319d9e - Path: Assets/Script/PlayerMovement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 89855cb166840482cbf9597485319d9e' -> (Import Result ID: '0bee52cff11da91211255887ca0bb8eb') in 0.183 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6715644f0b7f023c0f2db3655c3f83bd DependenciesID=9c5fdb9c8c7c90b60962dd35e388a42a StaticDependenciesID=5e1dba14bf4298b93a367467615c6c97 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
@@ -1142,55 +826,20 @@ AcceleratorClientConnectionCallback - disconnected - :0
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.2 MB). Loaded Objects now: 7648.
-Memory consumption went from 223.7 MB to 218.5 MB.
-Total: 11.296869 ms (FindLiveObjects: 0.841930 ms CreateObjectMapping: 0.492133 ms MarkObjects: 7.760806 ms  DeleteObjects: 1.607361 ms)
+Unloading 6587 unused Assets / (5.7 MB). Loaded Objects now: 7639.
+Memory consumption went from 222.8 MB to 217.0 MB.
+Total: 16.283885 ms (FindLiveObjects: 1.313749 ms CreateObjectMapping: 0.772418 ms MarkObjects: 10.961090 ms  DeleteObjects: 2.473871 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.778 seconds
-Domain Reload Profiling: 1736ms
-	BeginReloadAssembly (235ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (626ms)
-		LoadAssemblies (309ms)
-		TypeCache.Refresh (15ms)
-		AnalyzeDomain (189ms)
-			BuildScriptInfoCaches (179ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (780ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.2 MB). Loaded Objects now: 7650.
-Memory consumption went from 223.6 MB to 218.4 MB.
-Total: 12.304367 ms (FindLiveObjects: 1.183136 ms CreateObjectMapping: 0.665441 ms MarkObjects: 7.883021 ms  DeleteObjects: 2.031083 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Received Import Request.
+  Time of request: 2026-09-27T12:05:48.750306Z
+  Time since last request: 3.059709514 seconds.
+  importAddress: GUID: c0ff967f575c40affbaf3cb2c47ae227 - Path: Assets/Script/Movement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c0ff967f575c40affbaf3cb2c47ae227 - Path: Assets/Script/Movement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c0ff967f575c40affbaf3cb2c47ae227' -> (Import Result ID: 'bdf070f40d9e88d356eccb3d82e1a170') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a71022eb558513636e1517fc462e4a3a DependenciesID=c5bab66fb13635cd38d4137de99db06a StaticDependenciesID=17b6cced30a01f7ce3c22a622c1d5452 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
@@ -1207,343 +856,47 @@ Native extension for LinuxStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.745 seconds
-Domain Reload Profiling: 1888ms
-	BeginReloadAssembly (244ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (819ms)
-		LoadAssemblies (383ms)
-		TypeCache.Refresh (19ms)
-		AnalyzeDomain (274ms)
-			BuildScriptInfoCaches (264ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (746ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (5ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.2 MB). Loaded Objects now: 7652.
-Memory consumption went from 223.7 MB to 217.5 MB.
-Total: 11.635210 ms (FindLiveObjects: 0.993144 ms CreateObjectMapping: 0.490814 ms MarkObjects: 7.331831 ms  DeleteObjects: 2.258997 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.6 MB). Loaded Objects now: 7652.
-Memory consumption went from 223.9 MB to 217.4 MB.
-Total: 13.906933 ms (FindLiveObjects: 0.925986 ms CreateObjectMapping: 0.509514 ms MarkObjects: 9.534106 ms  DeleteObjects: 2.397347 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.797 seconds
-Domain Reload Profiling: 1668ms
-	BeginReloadAssembly (220ms)
-		DisableScriptedObjects (18ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (10ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (585ms)
-		LoadAssemblies (271ms)
-		TypeCache.Refresh (17ms)
-		AnalyzeDomain (182ms)
-			BuildScriptInfoCaches (174ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (798ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.9 MB). Loaded Objects now: 7654.
-Memory consumption went from 223.8 MB to 218.0 MB.
-Total: 13.014359 ms (FindLiveObjects: 1.119917 ms CreateObjectMapping: 0.760356 ms MarkObjects: 8.444178 ms  DeleteObjects: 2.186515 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.6 MB). Loaded Objects now: 7654.
-Memory consumption went from 224.1 MB to 218.5 MB.
-Total: 10.928653 ms (FindLiveObjects: 0.724864 ms CreateObjectMapping: 0.451566 ms MarkObjects: 7.691647 ms  DeleteObjects: 1.547240 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.816 seconds
-Domain Reload Profiling: 1722ms
-	BeginReloadAssembly (233ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (596ms)
-		LoadAssemblies (275ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (194ms)
-			BuildScriptInfoCaches (186ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (817ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (237ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (5ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.8 MB). Loaded Objects now: 7656.
-Memory consumption went from 224.1 MB to 217.3 MB.
-Total: 14.384540 ms (FindLiveObjects: 0.958182 ms CreateObjectMapping: 0.470332 ms MarkObjects: 10.240797 ms  DeleteObjects: 2.123124 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.7 MB). Loaded Objects now: 7656.
-Memory consumption went from 224.3 MB to 217.6 MB.
-Total: 12.760284 ms (FindLiveObjects: 1.115994 ms CreateObjectMapping: 0.450185 ms MarkObjects: 8.775675 ms  DeleteObjects: 1.853173 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.872 seconds
-Domain Reload Profiling: 1825ms
-	BeginReloadAssembly (227ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (10ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (657ms)
-		LoadAssemblies (323ms)
-		TypeCache.Refresh (11ms)
-		AnalyzeDomain (210ms)
-			BuildScriptInfoCaches (200ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (873ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (214ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (14ms)
-		AwakeInstancesAfterBackupRestoration (64ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (4.9 MB). Loaded Objects now: 7658.
-Memory consumption went from 224.2 MB to 219.3 MB.
-Total: 13.366193 ms (FindLiveObjects: 1.038649 ms CreateObjectMapping: 0.749275 ms MarkObjects: 9.199485 ms  DeleteObjects: 1.819627 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.0 MB). Loaded Objects now: 7658.
-Memory consumption went from 224.5 MB to 218.5 MB.
-Total: 16.133900 ms (FindLiveObjects: 0.976327 ms CreateObjectMapping: 0.598757 ms MarkObjects: 11.445558 ms  DeleteObjects: 2.375835 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.797 seconds
-Domain Reload Profiling: 1749ms
-	BeginReloadAssembly (231ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (642ms)
-		LoadAssemblies (301ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (202ms)
-			BuildScriptInfoCaches (193ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (798ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			BeforeProcessingInitializeOnLoad (164ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (5ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.9 MB). Loaded Objects now: 7660.
-Memory consumption went from 224.4 MB to 217.5 MB.
-Total: 15.406053 ms (FindLiveObjects: 1.008806 ms CreateObjectMapping: 0.538471 ms MarkObjects: 10.960412 ms  DeleteObjects: 2.295358 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.7 MB). Loaded Objects now: 7660.
-Memory consumption went from 224.6 MB to 217.9 MB.
-Total: 15.961121 ms (FindLiveObjects: 1.132322 ms CreateObjectMapping: 0.506572 ms MarkObjects: 10.951279 ms  DeleteObjects: 2.735327 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.945 seconds
-Domain Reload Profiling: 2073ms
-	BeginReloadAssembly (312ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (101ms)
-	RebuildCommonClasses (15ms)
+- Finished resetting the current domain, in  1.071 seconds
+Domain Reload Profiling: 2257ms
+	BeginReloadAssembly (284ms)
+		DisableScriptedObjects (25ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (13ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (719ms)
-		LoadAssemblies (341ms)
-		TypeCache.Refresh (14ms)
-		AnalyzeDomain (207ms)
-			BuildScriptInfoCaches (198ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (947ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (803ms)
+		LoadAssemblies (390ms)
+		TypeCache.Refresh (13ms)
+		AnalyzeDomain (252ms)
+			BuildScriptInfoCaches (241ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1073ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (5ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (258ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (5ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.5 MB). Loaded Objects now: 7662.
-Memory consumption went from 224.6 MB to 219.1 MB.
-Total: 15.511152 ms (FindLiveObjects: 1.272727 ms CreateObjectMapping: 0.550358 ms MarkObjects: 10.396071 ms  DeleteObjects: 2.477362 ms)
+Unloading 6594 unused Assets / (7.3 MB). Loaded Objects now: 7641.
+Memory consumption went from 222.7 MB to 215.4 MB.
+Total: 15.472105 ms (FindLiveObjects: 0.947716 ms CreateObjectMapping: 0.511067 ms MarkObjects: 9.620546 ms  DeleteObjects: 3.767110 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (2.9 MB). Loaded Objects now: 7662.
-Memory consumption went from 220.9 MB to 218.0 MB.
-Total: 10.464602 ms (FindLiveObjects: 0.735906 ms CreateObjectMapping: 0.230167 ms MarkObjects: 8.018211 ms  DeleteObjects: 0.804502 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.9 MB). Loaded Objects now: 7662.
-Memory consumption went from 224.9 MB to 219.0 MB.
-Total: 16.026093 ms (FindLiveObjects: 0.970214 ms CreateObjectMapping: 0.495116 ms MarkObjects: 11.675982 ms  DeleteObjects: 2.304184 ms)
+Unloading 6587 unused Assets / (6.0 MB). Loaded Objects now: 7641.
+Memory consumption went from 222.9 MB to 217.0 MB.
+Total: 22.218378 ms (FindLiveObjects: 1.778316 ms CreateObjectMapping: 1.204791 ms MarkObjects: 15.074929 ms  DeleteObjects: 3.287419 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1562,773 +915,47 @@ Native extension for LinuxStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.790 seconds
-Domain Reload Profiling: 1682ms
-	BeginReloadAssembly (226ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (588ms)
-		LoadAssemblies (287ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (182ms)
-			BuildScriptInfoCaches (174ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (791ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (139ms)
-			ProcessInitializeOnLoadAttributes (224ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.8 MB). Loaded Objects now: 7664.
-Memory consumption went from 224.8 MB to 219.0 MB.
-Total: 14.025333 ms (FindLiveObjects: 0.847683 ms CreateObjectMapping: 0.606394 ms MarkObjects: 9.449635 ms  DeleteObjects: 2.487239 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.1 MB). Loaded Objects now: 7664.
-Memory consumption went from 225.0 MB to 219.9 MB.
-Total: 16.189730 ms (FindLiveObjects: 1.000228 ms CreateObjectMapping: 0.589636 ms MarkObjects: 12.060855 ms  DeleteObjects: 1.976654 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.930 seconds
-Domain Reload Profiling: 2196ms
-	BeginReloadAssembly (405ms)
-		DisableScriptedObjects (20ms)
-		CreateAndSetChildDomain (111ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (711ms)
-		LoadAssemblies (470ms)
-		TypeCache.Refresh (11ms)
-		AnalyzeDomain (201ms)
-			BuildScriptInfoCaches (192ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (934ms)
+- Finished resetting the current domain, in  1.055 seconds
+Domain Reload Profiling: 2382ms
+	BeginReloadAssembly (369ms)
+		DisableScriptedObjects (37ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (855ms)
+		LoadAssemblies (422ms)
+		TypeCache.Refresh (16ms)
+		AnalyzeDomain (245ms)
+			BuildScriptInfoCaches (234ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1057ms)
 		SetupLoadedEditorAssemblies (0ms)
 			LogAssemblyErrors (4ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (160ms)
-			ProcessInitializeOnLoadAttributes (288ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (6ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.5 MB). Loaded Objects now: 7666.
-Memory consumption went from 225.0 MB to 219.4 MB.
-Total: 13.931127 ms (FindLiveObjects: 1.358166 ms CreateObjectMapping: 0.498865 ms MarkObjects: 9.768467 ms  DeleteObjects: 1.680307 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.7 MB). Loaded Objects now: 7666.
-Memory consumption went from 225.2 MB to 219.4 MB.
-Total: 13.672499 ms (FindLiveObjects: 0.916815 ms CreateObjectMapping: 0.530334 ms MarkObjects: 9.386595 ms  DeleteObjects: 2.261508 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.927 seconds
-Domain Reload Profiling: 1942ms
-	BeginReloadAssembly (281ms)
-		DisableScriptedObjects (16ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (635ms)
-		LoadAssemblies (347ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (194ms)
-			BuildScriptInfoCaches (185ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (929ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (185ms)
-			ProcessInitializeOnLoadAttributes (222ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.1 MB). Loaded Objects now: 7668.
-Memory consumption went from 225.1 MB to 219.1 MB.
-Total: 14.864320 ms (FindLiveObjects: 1.027074 ms CreateObjectMapping: 0.566559 ms MarkObjects: 9.957605 ms  DeleteObjects: 2.661305 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.4 MB). Loaded Objects now: 7668.
-Memory consumption went from 225.4 MB to 219.9 MB.
-Total: 14.454027 ms (FindLiveObjects: 0.875467 ms CreateObjectMapping: 0.446932 ms MarkObjects: 9.257764 ms  DeleteObjects: 3.022929 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.808 seconds
-Domain Reload Profiling: 1744ms
-	BeginReloadAssembly (247ms)
-		DisableScriptedObjects (23ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (10ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (587ms)
-		LoadAssemblies (293ms)
-		TypeCache.Refresh (11ms)
-		AnalyzeDomain (175ms)
-			BuildScriptInfoCaches (168ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (809ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.9 MB). Loaded Objects now: 7670.
-Memory consumption went from 225.2 MB to 219.3 MB.
-Total: 11.509142 ms (FindLiveObjects: 0.870230 ms CreateObjectMapping: 0.474685 ms MarkObjects: 8.010145 ms  DeleteObjects: 1.614836 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.6 MB). Loaded Objects now: 7670.
-Memory consumption went from 225.5 MB to 218.8 MB.
-Total: 16.857330 ms (FindLiveObjects: 1.037793 ms CreateObjectMapping: 0.679659 ms MarkObjects: 11.287507 ms  DeleteObjects: 2.909641 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.761 seconds
-Domain Reload Profiling: 1730ms
-	BeginReloadAssembly (239ms)
-		DisableScriptedObjects (18ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (632ms)
-		LoadAssemblies (313ms)
-		TypeCache.Refresh (13ms)
-		AnalyzeDomain (184ms)
-			BuildScriptInfoCaches (177ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (762ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (130ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.2 MB). Loaded Objects now: 7672.
-Memory consumption went from 225.5 MB to 219.3 MB.
-Total: 11.787244 ms (FindLiveObjects: 0.931574 ms CreateObjectMapping: 0.461800 ms MarkObjects: 8.171766 ms  DeleteObjects: 1.674718 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.0 MB). Loaded Objects now: 7672.
-Memory consumption went from 225.7 MB to 219.7 MB.
-Total: 15.349252 ms (FindLiveObjects: 1.045983 ms CreateObjectMapping: 0.471581 ms MarkObjects: 9.019365 ms  DeleteObjects: 4.156779 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.883 seconds
-Domain Reload Profiling: 1825ms
-	BeginReloadAssembly (237ms)
-		DisableScriptedObjects (18ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (617ms)
-		LoadAssemblies (324ms)
-		TypeCache.Refresh (11ms)
-		AnalyzeDomain (176ms)
-			BuildScriptInfoCaches (168ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (885ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (238ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.5 MB). Loaded Objects now: 7674.
-Memory consumption went from 225.6 MB to 220.1 MB.
-Total: 12.234255 ms (FindLiveObjects: 0.827849 ms CreateObjectMapping: 0.562504 ms MarkObjects: 8.429751 ms  DeleteObjects: 1.864483 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.803 seconds
-Domain Reload Profiling: 1813ms
-	BeginReloadAssembly (253ms)
-		DisableScriptedObjects (29ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (675ms)
-		LoadAssemblies (327ms)
-		TypeCache.Refresh (16ms)
-		AnalyzeDomain (205ms)
-			BuildScriptInfoCaches (193ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (805ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (156ms)
-			ProcessInitializeOnLoadAttributes (227ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (3ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.2 MB). Loaded Objects now: 7676.
-Memory consumption went from 225.8 MB to 220.6 MB.
-Total: 13.472200 ms (FindLiveObjects: 1.225420 ms CreateObjectMapping: 0.883975 ms MarkObjects: 9.084290 ms  DeleteObjects: 1.709538 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.3 MB). Loaded Objects now: 7676.
-Memory consumption went from 226.0 MB to 220.7 MB.
-Total: 11.778519 ms (FindLiveObjects: 0.922764 ms CreateObjectMapping: 0.501831 ms MarkObjects: 7.938159 ms  DeleteObjects: 1.837175 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.5 MB). Loaded Objects now: 7676.
-Memory consumption went from 226.0 MB to 220.6 MB.
-Total: 13.025302 ms (FindLiveObjects: 1.042840 ms CreateObjectMapping: 0.587965 ms MarkObjects: 8.486914 ms  DeleteObjects: 2.328495 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.0 MB). Loaded Objects now: 7676.
-Memory consumption went from 226.1 MB to 221.1 MB.
-Total: 12.046672 ms (FindLiveObjects: 0.828140 ms CreateObjectMapping: 0.568083 ms MarkObjects: 8.201033 ms  DeleteObjects: 1.904852 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.787 seconds
-Domain Reload Profiling: 1732ms
-	BeginReloadAssembly (247ms)
-		DisableScriptedObjects (21ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (600ms)
-		LoadAssemblies (315ms)
-		TypeCache.Refresh (14ms)
-		AnalyzeDomain (171ms)
-			BuildScriptInfoCaches (163ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (789ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (215ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (3ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.0 MB). Loaded Objects now: 7678.
-Memory consumption went from 226.0 MB to 221.1 MB.
-Total: 11.104245 ms (FindLiveObjects: 0.849797 ms CreateObjectMapping: 0.471138 ms MarkObjects: 7.708703 ms  DeleteObjects: 1.539382 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.1 MB). Loaded Objects now: 7678.
-Memory consumption went from 226.3 MB to 221.1 MB.
-Total: 11.899178 ms (FindLiveObjects: 0.816975 ms CreateObjectMapping: 0.491745 ms MarkObjects: 7.986803 ms  DeleteObjects: 1.915494 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.853 seconds
-Domain Reload Profiling: 1844ms
-	BeginReloadAssembly (263ms)
-		DisableScriptedObjects (21ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (637ms)
-		LoadAssemblies (315ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (199ms)
-			BuildScriptInfoCaches (191ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (854ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (229ms)
-			ProcessInitializeOnLoadMethodAttributes (128ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.0 MB). Loaded Objects now: 7680.
-Memory consumption went from 226.1 MB to 221.1 MB.
-Total: 10.569642 ms (FindLiveObjects: 0.871055 ms CreateObjectMapping: 0.531587 ms MarkObjects: 7.205015 ms  DeleteObjects: 1.472992 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (4.9 MB). Loaded Objects now: 7680.
-Memory consumption went from 226.4 MB to 221.4 MB.
-Total: 13.676201 ms (FindLiveObjects: 1.037733 ms CreateObjectMapping: 0.645187 ms MarkObjects: 8.562212 ms  DeleteObjects: 2.660599 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.816 seconds
-Domain Reload Profiling: 1890ms
-	BeginReloadAssembly (229ms)
-		DisableScriptedObjects (16ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (10ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (769ms)
-		LoadAssemblies (337ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (254ms)
-			BuildScriptInfoCaches (237ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (818ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (227ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.1 MB). Loaded Objects now: 7682.
-Memory consumption went from 226.4 MB to 221.3 MB.
-Total: 11.691472 ms (FindLiveObjects: 0.871886 ms CreateObjectMapping: 0.484368 ms MarkObjects: 8.132584 ms  DeleteObjects: 1.628879 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.1 MB). Loaded Objects now: 7682.
-Memory consumption went from 226.6 MB to 221.5 MB.
-Total: 11.561188 ms (FindLiveObjects: 0.993746 ms CreateObjectMapping: 0.436968 ms MarkObjects: 7.894564 ms  DeleteObjects: 1.692541 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.793 seconds
-Domain Reload Profiling: 1792ms
-	BeginReloadAssembly (235ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (10ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (685ms)
-		LoadAssemblies (359ms)
-		TypeCache.Refresh (15ms)
-		AnalyzeDomain (186ms)
-			BuildScriptInfoCaches (178ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (794ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (110ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.1 MB). Loaded Objects now: 7684.
-Memory consumption went from 226.5 MB to 221.5 MB.
-Total: 11.074291 ms (FindLiveObjects: 0.834025 ms CreateObjectMapping: 0.451699 ms MarkObjects: 7.653857 ms  DeleteObjects: 1.587070 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.2 MB). Loaded Objects now: 7684.
-Memory consumption went from 226.8 MB to 221.6 MB.
-Total: 12.797812 ms (FindLiveObjects: 0.977622 ms CreateObjectMapping: 0.485876 ms MarkObjects: 8.579525 ms  DeleteObjects: 2.151277 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.820 seconds
-Domain Reload Profiling: 1838ms
-	BeginReloadAssembly (235ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (14ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (702ms)
-		LoadAssemblies (341ms)
-		TypeCache.Refresh (13ms)
-		AnalyzeDomain (206ms)
-			BuildScriptInfoCaches (197ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (822ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (219ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
 			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (7ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.1 MB). Loaded Objects now: 7686.
-Memory consumption went from 226.7 MB to 221.6 MB.
-Total: 15.938400 ms (FindLiveObjects: 1.106441 ms CreateObjectMapping: 0.942411 ms MarkObjects: 10.880198 ms  DeleteObjects: 2.271486 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.2 MB). Loaded Objects now: 7686.
-Memory consumption went from 226.9 MB to 221.7 MB.
-Total: 11.582459 ms (FindLiveObjects: 0.936845 ms CreateObjectMapping: 0.436289 ms MarkObjects: 7.861442 ms  DeleteObjects: 1.806658 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.813 seconds
-Domain Reload Profiling: 2015ms
-	BeginReloadAssembly (341ms)
-		DisableScriptedObjects (22ms)
-		CreateAndSetChildDomain (121ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (758ms)
-		LoadAssemblies (378ms)
-		TypeCache.Refresh (13ms)
-		AnalyzeDomain (230ms)
-			BuildScriptInfoCaches (217ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (814ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (158ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.0 MB). Loaded Objects now: 7688.
-Memory consumption went from 226.9 MB to 221.8 MB.
-Total: 17.596981 ms (FindLiveObjects: 1.243238 ms CreateObjectMapping: 0.855366 ms MarkObjects: 12.255645 ms  DeleteObjects: 2.401110 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.809 seconds
-Domain Reload Profiling: 1840ms
-	BeginReloadAssembly (244ms)
-		DisableScriptedObjects (20ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (714ms)
-		LoadAssemblies (307ms)
-		TypeCache.Refresh (23ms)
-		AnalyzeDomain (252ms)
-			BuildScriptInfoCaches (244ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (811ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (3ms)
 		AwakeInstancesAfterBackupRestoration (38ms)
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.1 MB). Loaded Objects now: 7690.
-Memory consumption went from 226.9 MB to 220.8 MB.
-Total: 18.685750 ms (FindLiveObjects: 1.196594 ms CreateObjectMapping: 0.720317 ms MarkObjects: 12.320001 ms  DeleteObjects: 3.585829 ms)
+Unloading 6594 unused Assets / (5.2 MB). Loaded Objects now: 7643.
+Memory consumption went from 222.9 MB to 217.7 MB.
+Total: 18.684458 ms (FindLiveObjects: 1.415489 ms CreateObjectMapping: 0.954966 ms MarkObjects: 13.011957 ms  DeleteObjects: 2.632844 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (5.1 MB). Loaded Objects now: 7643.
+Memory consumption went from 223.1 MB to 218.0 MB.
+Total: 15.513066 ms (FindLiveObjects: 1.041667 ms CreateObjectMapping: 0.578948 ms MarkObjects: 11.177465 ms  DeleteObjects: 2.036254 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -2346,216 +973,35 @@ Native extension for LinuxStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.800 seconds
-Domain Reload Profiling: 1754ms
-	BeginReloadAssembly (258ms)
-		DisableScriptedObjects (20ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (13ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (620ms)
-		LoadAssemblies (308ms)
-		TypeCache.Refresh (20ms)
-		AnalyzeDomain (196ms)
-			BuildScriptInfoCaches (188ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (801ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (233ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.0 MB). Loaded Objects now: 7692.
-Memory consumption went from 227.1 MB to 221.1 MB.
-Total: 14.413908 ms (FindLiveObjects: 0.909409 ms CreateObjectMapping: 0.482870 ms MarkObjects: 10.004490 ms  DeleteObjects: 2.398037 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (4.9 MB). Loaded Objects now: 7692.
-Memory consumption went from 227.4 MB to 222.4 MB.
-Total: 15.097014 ms (FindLiveObjects: 0.815450 ms CreateObjectMapping: 0.508575 ms MarkObjects: 11.234760 ms  DeleteObjects: 1.970156 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.749 seconds
-Domain Reload Profiling: 1637ms
-	BeginReloadAssembly (243ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (567ms)
-		LoadAssemblies (280ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (175ms)
-			BuildScriptInfoCaches (168ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (750ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (4ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.7 MB). Loaded Objects now: 7694.
-Memory consumption went from 227.3 MB to 221.6 MB.
-Total: 11.853420 ms (FindLiveObjects: 1.045680 ms CreateObjectMapping: 0.476917 ms MarkObjects: 8.143232 ms  DeleteObjects: 1.643066 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.2 MB). Loaded Objects now: 7694.
-Memory consumption went from 227.5 MB to 222.4 MB.
-Total: 12.311155 ms (FindLiveObjects: 0.965798 ms CreateObjectMapping: 0.550666 ms MarkObjects: 8.142061 ms  DeleteObjects: 2.071558 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.806 seconds
-Domain Reload Profiling: 1722ms
-	BeginReloadAssembly (233ms)
-		DisableScriptedObjects (16ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (608ms)
-		LoadAssemblies (284ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (192ms)
-			BuildScriptInfoCaches (184ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (807ms)
-		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (6.1 MB). Loaded Objects now: 7696.
-Memory consumption went from 227.5 MB to 221.4 MB.
-Total: 12.385128 ms (FindLiveObjects: 1.103291 ms CreateObjectMapping: 0.575394 ms MarkObjects: 7.781456 ms  DeleteObjects: 2.361432 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (2.9 MB). Loaded Objects now: 7696.
-Memory consumption went from 223.8 MB to 220.9 MB.
-Total: 9.897624 ms (FindLiveObjects: 0.662010 ms CreateObjectMapping: 0.216563 ms MarkObjects: 7.973687 ms  DeleteObjects: 0.495393 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.1 MB). Loaded Objects now: 7696.
-Memory consumption went from 227.7 MB to 221.6 MB.
-Total: 19.898204 ms (FindLiveObjects: 1.390238 ms CreateObjectMapping: 0.822402 ms MarkObjects: 14.103679 ms  DeleteObjects: 2.724757 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.854 seconds
-Domain Reload Profiling: 2193ms
-	BeginReloadAssembly (316ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (852ms)
-		LoadAssemblies (491ms)
+- Finished resetting the current domain, in  1.029 seconds
+Domain Reload Profiling: 2386ms
+	BeginReloadAssembly (401ms)
+		DisableScriptedObjects (30ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (831ms)
+		LoadAssemblies (426ms)
 		TypeCache.Refresh (16ms)
-		AnalyzeDomain (207ms)
-			BuildScriptInfoCaches (199ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (855ms)
+		AnalyzeDomain (256ms)
+			BuildScriptInfoCaches (244ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1030ms)
 		SetupLoadedEditorAssemblies (0ms)
 			LogAssemblyErrors (3ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (254ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (6ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (4.9 MB). Loaded Objects now: 7698.
-Memory consumption went from 227.7 MB to 222.8 MB.
-Total: 9.756350 ms (FindLiveObjects: 0.838841 ms CreateObjectMapping: 0.446744 ms MarkObjects: 6.684191 ms  DeleteObjects: 1.316810 ms)
+Unloading 6594 unused Assets / (5.7 MB). Loaded Objects now: 7645.
+Memory consumption went from 223.0 MB to 217.3 MB.
+Total: 15.754304 ms (FindLiveObjects: 1.293994 ms CreateObjectMapping: 0.747306 ms MarkObjects: 10.627963 ms  DeleteObjects: 2.445096 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -2565,65 +1011,9 @@ AcceleratorClientConnectionCallback - disconnected - :0
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (5.6 MB). Loaded Objects now: 7698.
-Memory consumption went from 227.9 MB to 222.3 MB.
-Total: 16.000486 ms (FindLiveObjects: 0.964107 ms CreateObjectMapping: 0.471999 ms MarkObjects: 11.289770 ms  DeleteObjects: 2.497263 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Begin MonoManager ReloadAssembly
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.796 seconds
-Domain Reload Profiling: 1878ms
-	BeginReloadAssembly (263ms)
-		DisableScriptedObjects (18ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (746ms)
-		LoadAssemblies (319ms)
-		TypeCache.Refresh (12ms)
-		AnalyzeDomain (269ms)
-			BuildScriptInfoCaches (262ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (798ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (7.7 MB). Loaded Objects now: 7700.
-Memory consumption went from 227.8 MB to 220.1 MB.
-Total: 12.858077 ms (FindLiveObjects: 1.009401 ms CreateObjectMapping: 0.501680 ms MarkObjects: 8.106304 ms  DeleteObjects: 2.676097 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (6.2 MB). Loaded Objects now: 7700.
-Memory consumption went from 228.0 MB to 221.9 MB.
-Total: 12.004038 ms (FindLiveObjects: 0.853289 ms CreateObjectMapping: 0.501146 ms MarkObjects: 8.422830 ms  DeleteObjects: 1.671941 ms)
+Unloading 6587 unused Assets / (5.6 MB). Loaded Objects now: 7645.
+Memory consumption went from 223.2 MB to 217.6 MB.
+Total: 15.829479 ms (FindLiveObjects: 1.392488 ms CreateObjectMapping: 0.760984 ms MarkObjects: 10.540897 ms  DeleteObjects: 2.518113 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -2641,33 +1031,291 @@ Native extension for LinuxStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.812 seconds
-Domain Reload Profiling: 1758ms
-	BeginReloadAssembly (230ms)
-		DisableScriptedObjects (17ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (12ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (638ms)
-		LoadAssemblies (292ms)
-		TypeCache.Refresh (11ms)
-		AnalyzeDomain (204ms)
-			BuildScriptInfoCaches (195ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (813ms)
+- Finished resetting the current domain, in  1.038 seconds
+Domain Reload Profiling: 2245ms
+	BeginReloadAssembly (291ms)
+		DisableScriptedObjects (31ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (823ms)
+		LoadAssemblies (385ms)
+		TypeCache.Refresh (18ms)
+		AnalyzeDomain (262ms)
+			BuildScriptInfoCaches (250ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1039ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (9ms)
+			LogAssemblyErrors (3ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6593 unused Assets / (5.2 MB). Loaded Objects now: 7702.
-Memory consumption went from 228.0 MB to 222.8 MB.
-Total: 11.762609 ms (FindLiveObjects: 0.885371 ms CreateObjectMapping: 0.470492 ms MarkObjects: 8.194792 ms  DeleteObjects: 1.682726 ms)
+Unloading 6594 unused Assets / (6.0 MB). Loaded Objects now: 7647.
+Memory consumption went from 223.2 MB to 217.3 MB.
+Total: 20.437329 ms (FindLiveObjects: 1.516527 ms CreateObjectMapping: 0.942111 ms MarkObjects: 13.977734 ms  DeleteObjects: 3.240171 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (7.0 MB). Loaded Objects now: 7647.
+Memory consumption went from 223.5 MB to 216.5 MB.
+Total: 18.304599 ms (FindLiveObjects: 1.366855 ms CreateObjectMapping: 0.841885 ms MarkObjects: 11.427978 ms  DeleteObjects: 4.014375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for LinuxStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.262 seconds
+Domain Reload Profiling: 2733ms
+	BeginReloadAssembly (397ms)
+		DisableScriptedObjects (25ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (963ms)
+		LoadAssemblies (521ms)
+		TypeCache.Refresh (19ms)
+		AnalyzeDomain (262ms)
+			BuildScriptInfoCaches (248ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1264ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6594 unused Assets / (5.9 MB). Loaded Objects now: 7649.
+Memory consumption went from 223.4 MB to 217.5 MB.
+Total: 21.428997 ms (FindLiveObjects: 1.160133 ms CreateObjectMapping: 0.682643 ms MarkObjects: 15.610358 ms  DeleteObjects: 3.248995 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (5.2 MB). Loaded Objects now: 7649.
+Memory consumption went from 223.6 MB to 218.5 MB.
+Total: 19.709122 ms (FindLiveObjects: 1.928938 ms CreateObjectMapping: 1.184610 ms MarkObjects: 13.271310 ms  DeleteObjects: 2.617837 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for LinuxStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.090 seconds
+Domain Reload Profiling: 2435ms
+	BeginReloadAssembly (420ms)
+		DisableScriptedObjects (32ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (814ms)
+		LoadAssemblies (449ms)
+		TypeCache.Refresh (17ms)
+		AnalyzeDomain (258ms)
+			BuildScriptInfoCaches (246ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1092ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6594 unused Assets / (5.2 MB). Loaded Objects now: 7651.
+Memory consumption went from 223.6 MB to 218.3 MB.
+Total: 17.014271 ms (FindLiveObjects: 1.146147 ms CreateObjectMapping: 0.708955 ms MarkObjects: 12.027355 ms  DeleteObjects: 2.384514 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (5.7 MB). Loaded Objects now: 7651.
+Memory consumption went from 223.8 MB to 218.1 MB.
+Total: 17.560478 ms (FindLiveObjects: 1.382235 ms CreateObjectMapping: 0.770102 ms MarkObjects: 11.484034 ms  DeleteObjects: 3.218259 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (5.0 MB). Loaded Objects now: 7651.
+Memory consumption went from 223.9 MB to 218.8 MB.
+Total: 15.712989 ms (FindLiveObjects: 1.323970 ms CreateObjectMapping: 0.757059 ms MarkObjects: 10.580707 ms  DeleteObjects: 2.415540 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (5.3 MB). Loaded Objects now: 7651.
+Memory consumption went from 223.9 MB to 218.7 MB.
+Total: 13.507924 ms (FindLiveObjects: 0.983033 ms CreateObjectMapping: 0.518184 ms MarkObjects: 9.111871 ms  DeleteObjects: 2.163614 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for LinuxStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.027 seconds
+Domain Reload Profiling: 2247ms
+	BeginReloadAssembly (321ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (808ms)
+		LoadAssemblies (396ms)
+		TypeCache.Refresh (13ms)
+		AnalyzeDomain (236ms)
+			BuildScriptInfoCaches (225ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1028ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6594 unused Assets / (6.2 MB). Loaded Objects now: 7653.
+Memory consumption went from 223.9 MB to 217.7 MB.
+Total: 22.221897 ms (FindLiveObjects: 1.721640 ms CreateObjectMapping: 1.077958 ms MarkObjects: 15.516271 ms  DeleteObjects: 2.900011 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (5.4 MB). Loaded Objects now: 7653.
+Memory consumption went from 224.1 MB to 218.7 MB.
+Total: 19.084548 ms (FindLiveObjects: 1.448251 ms CreateObjectMapping: 0.803265 ms MarkObjects: 13.358994 ms  DeleteObjects: 2.792571 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for LinuxStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 2077ms
+	BeginReloadAssembly (298ms)
+		DisableScriptedObjects (22ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (726ms)
+		LoadAssemblies (336ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (226ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (961ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6594 unused Assets / (5.5 MB). Loaded Objects now: 7655.
+Memory consumption went from 224.1 MB to 218.6 MB.
+Total: 17.694374 ms (FindLiveObjects: 0.975127 ms CreateObjectMapping: 0.527486 ms MarkObjects: 12.915160 ms  DeleteObjects: 2.547459 ms)
 
 Prepare: number of updated asset objects reloaded= 0
