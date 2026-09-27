@@ -1420,3 +1420,15 @@ Memory consumption went from 224.4 MB to 218.8 MB.
 Total: 16.625232 ms (FindLiveObjects: 1.149418 ms CreateObjectMapping: 0.617984 ms MarkObjects: 10.909846 ms  DeleteObjects: 3.164961 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (5.8 MB). Loaded Objects now: 7657.
+Memory consumption went from 224.6 MB to 218.8 MB.
+Total: 21.712504 ms (FindLiveObjects: 1.477418 ms CreateObjectMapping: 0.812229 ms MarkObjects: 15.297126 ms  DeleteObjects: 3.384221 ms)
+
+Prepare: number of updated asset objects reloaded= 0

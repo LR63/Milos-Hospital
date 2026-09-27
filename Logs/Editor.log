@@ -3380,3 +3380,85 @@ Asset Pipeline Refresh (id=6dc6573539a1ce0e096fcba60f1d3724): Total: 0.230 secon
 [Licensing::Client] Successfully resolved entitlement details
 Asset Pipeline Refresh (id=54a18866c12aa93579e90fa092b94309): Total: 0.158 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
 [Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+
+Asset Pipeline Refresh (id=ee440ab7216bb0a6a8120d48bda06679): Total: 0.302 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=234 ms
+		Asset DB Callback time: managed=61 ms, native=3 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1516, non-scripts=2850
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	ApplyChangesToAssetFolders: 0.334ms
+	Scan: 180.612ms
+	Collect global state as custom dependencies: 0.229ms
+	OnSourceAssetsModified: 2.060ms
+	CategorizeScriptCompilationAssets: 0.070ms
+	ProcessAssetsWithTransientArtifactChanges: 0.585ms
+	CategorizeAssets: 36.186ms
+	CompileScripts: 1.571ms
+	ImportOutOfDateAssets: 7.835ms (0.355ms without children)
+		ReloadNativeAssets: 0.050ms
+		UnloadImportedAssets: 0.148ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.144ms
+		ImportSchedulerStart: 6.131ms
+	PostProcessAllAssets: 61.886ms
+		XRBuildSystem.XRAssetImported 0.971ms
+		PostProcessCallbackCreateDeferredMaterials 0.299ms
+		MonoPostProcessAllAssets: 59.488ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 13.299ms
+			AssetChangedListener.OnPostprocessAllAssets 9.515ms
+			AssetPostprocessor.OnPostprocessAllAssets 7.329ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 5.438ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.391ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.966ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.941ms
+			SyncVS.PostprocessSyncProject 1.866ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.536ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.333ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.939ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.936ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.888ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.753ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.498ms
+			PostProcessor.OnPostprocessAllAssets 0.465ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.407ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.405ms
+			AssetEvents.OnPostprocessAllAssets 0.364ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.361ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.336ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.301ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.293ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.265ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.255ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.164ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.150ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.134ms
+			AssetProcessor.OnPostprocessAllAssets 0.110ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.092ms
+	PostAssetChangesProfiler: 1.294ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.789ms
+	PersistCurrentRevisions: 0.359ms
+	Untracked: 7.770ms
+
+Starting: /home/lucie/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/lucie/Milo's Hospital
+ExitCode: 0 Duration: 0s571ms
+[ 842/1126  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1122/1126  0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1123/1126  0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll, with 139 defines and 373 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1124/1126  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1125/1126  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (0.48 seconds), 5 items updated, 1126 evaluated
+Total cache size 69619364
+Total cache size after purge 69619364, took 00:00:00.0656817
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.

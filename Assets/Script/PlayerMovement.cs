@@ -35,12 +35,5 @@ namespace Script
             _move = moveAction.ReadValue<Vector2>();
             Movement.Move(_move, moveSpeed, _rigidbody2D);
         }
-    
-        private void HandleMovement()
-        {
-            Vector2 targetSpeed = _move * moveSpeed;
-            Vector2 diff = targetSpeed - _rigidbody2D.linearVelocity;
-            _rigidbody2D.AddForce(Vector2.one * diff, ForceMode2D.Impulse);
-        }
     }
 }
