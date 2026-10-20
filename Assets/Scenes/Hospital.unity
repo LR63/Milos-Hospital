@@ -515,16 +515,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   moveSpeed: 7
-  moveAction:
-    m_Name: Move
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 4c275d37-2c8a-4e2b-9479-83da4de27336
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
-    m_Priority: 0
 --- !u!1 &1329145842
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +694,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541e98f8690ccf048b604c8dd7e3456c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  playerTransform: {fileID: 0}
+  moveSpeed: 5
+  distanceNearPlayer: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
