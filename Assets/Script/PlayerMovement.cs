@@ -2,14 +2,16 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System;
 using System.Data;
+using Script;
 
-namespace Script
+namespace Assets.Script
 {
+    [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerMovement : MonoBehaviour
     {
         [Range(0f, 10f)] public float moveSpeed = 7f;
     
-        public InputAction moveAction;
+        private InputAction moveAction;
 
         private Rigidbody2D _rigidbody2D;
 
