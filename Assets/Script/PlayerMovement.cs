@@ -1,19 +1,18 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System;
-using System.Data;
 
 namespace Script
 {
     public class PlayerMovement : MonoBehaviour
     {
         [Range(0f, 10f)] public float moveSpeed = 7f;
-    
+
         public InputAction moveAction;
 
-        private Rigidbody2D _rigidbody2D;
-
         private Vector2 _move;
+
+        private Rigidbody2D _rigidbody2D;
 
         // private SpriteRenderer _spriteRenderer;
 
@@ -22,10 +21,7 @@ namespace Script
         {
             _rigidbody2D = GetComponent<Rigidbody2D>();
             moveAction = InputSystem.actions.FindAction("Move");
-            if (moveAction == null)
-            {
-                throw new NullReferenceException("Couldn't find InputAction");
-            }
+            if (moveAction == null) throw new NullReferenceException("Couldn't find InputAction");
             //_spriteRenderer = gameObject.transform.Find("Sprites").GetComponent<SpriteRenderer>();
         }
 
