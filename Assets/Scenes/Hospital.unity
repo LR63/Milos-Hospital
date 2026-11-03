@@ -269,6 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 319b67655e828645e9936afad3e3407d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  patientPrefab: {fileID: 6258367456522331676, guid: e4024a0a03658511798327932e9477ab, type: 3}
 --- !u!1 &977311292
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +549,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1498323484319176699, guid: e4024a0a03658511798327932e9477ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -10.99
       objectReference: {fileID: 0}
     - target: {fileID: 1498323484319176699, guid: e4024a0a03658511798327932e9477ab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -597,6 +598,14 @@ PrefabInstance:
     - target: {fileID: 6258367456522331676, guid: e4024a0a03658511798327932e9477ab, type: 3}
       propertyPath: m_Name
       value: Patient
+      objectReference: {fileID: 0}
+    - target: {fileID: 6258367456522331676, guid: e4024a0a03658511798327932e9477ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365143218145756676, guid: e4024a0a03658511798327932e9477ab, type: 3}
+      propertyPath: state
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
