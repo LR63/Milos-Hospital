@@ -7,7 +7,7 @@ namespace Script
     {
         
         private int _waveNumber = 0;
-        private List<PatientScript> _patients = new List<PatientScript>();
+        private List<Patient> _patients = new List<Patient>();
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
