@@ -6,6 +6,8 @@ namespace Script
         Walking,
         Laying,
         WalkingOut,
-        Dead
+        Running,
+        Dead,
+        Exited
     }
 }
