@@ -1,8 +1,6 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System;
-using System.Data;
 using Script;
 
 namespace Assets.Script
