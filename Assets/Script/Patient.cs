@@ -3,7 +3,7 @@ using static Script.PatientStates;
 
 namespace Script
 {
-    public class PatientScript : MonoBehaviour
+    public class Patient : MonoBehaviour
     {
         private PatientStates _state = Waiting;
         
