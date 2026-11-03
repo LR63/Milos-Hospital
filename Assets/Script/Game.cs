@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Script
 {
-    public class GameScript : MonoBehaviour
+    public class Game : MonoBehaviour
     {
         
         private int _waveNumber = 0;
