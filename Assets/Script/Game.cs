@@ -23,9 +23,8 @@ namespace Script
             UpdatePatients();
             if (_remainingPatients == 0)
             {
-                Debug.Log("No more patients");
-                // _waveNumber++;
-                // GeneratePatients();
+                _waveNumber++;
+                GeneratePatients();
             }
         }
 
