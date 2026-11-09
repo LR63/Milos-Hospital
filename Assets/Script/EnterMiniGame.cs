@@ -16,15 +16,7 @@ public class EnterMiniGame : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             minigamePanel.SetActive(true);
-            Cursor.visible = true; // Si applicable pour ton jeu
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            minigamePanel.SetActive(false);
+            Cursor.visible = true;
         }
     }
 }
