@@ -1,0 +1,143 @@
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Linq;
+
+public class MiniGame1 : MonoBehaviour
+{
+    [Header("Liste des Sprites")]
+    public List<Sprite> allSprites;
+
+    [Header("Configuration")]
+    public int itemsToGenerate = 5;
+    public float scaleMultiplier = 4f;
+
+    [Tooltip("Marge (pixels) entre les objets")]
+    public float padding = 10f;
+
+    [Header("Prefabs")]
+    public GameObject slotPrefab;
+    public GameObject itemPrefab;
+
+    [Header("Conteneurs")]
+    public RectTransform slotsContainer;
+    public RectTransform itemsContainer;
+
+    void OnEnable()
+    {
+        InitMinigame();
+    }
+
+    public void InitMinigame()
+    {
+        // On détruit les anciens objets/slots pour en créer des nouveaux
+        foreach (Transform child in slotsContainer) Destroy(child.gameObject);
+        foreach (Transform child in itemsContainer) Destroy(child.gameObject);
+
+        // On choisit aléatoirement les sprites
+        List<Sprite> shuffledSprites = allSprites.OrderBy(x => Random.value).ToList();
+        List<Sprite> randomSprites = shuffledSprites.Take(itemsToGenerate).ToList();
+
+        // Liste des zones déjà occupées
+        List<Rect> placedSlots = new();
+        List<Rect> placedItems = new();
+
+        for (int item = 0; item < randomSprites.Count; item++)
+        {
+            int currentID = item;
+
+            // Slot
+            GameObject newSlot = Instantiate(slotPrefab, slotsContainer);
+            newSlot.name = "Slot_" + item;
+
+            Image slotImg = newSlot.GetComponent<Image>();
+            slotImg.sprite = randomSprites[item];
+            slotImg.color = new Color(0, 0, 0, 0.5f);
+            slotImg.SetNativeSize();
+
+            RectTransform slotRect = newSlot.GetComponent<RectTransform>();
+            slotRect.localScale = new Vector3(scaleMultiplier, scaleMultiplier, 1f);
+            newSlot.GetComponent<DropSlot>().expectedShapeID = currentID;
+
+            // Item
+            GameObject newItem = Instantiate(itemPrefab, itemsContainer);
+            newItem.name = "Item_" + item;
+
+            Image itemImg = newItem.GetComponent<Image>();
+            itemImg.sprite = randomSprites[item];
+            itemImg.SetNativeSize();
+
+            RectTransform itemRect = newItem.GetComponent<RectTransform>();
+            itemRect.localScale = new Vector3(scaleMultiplier, scaleMultiplier, 1f);
+            newItem.GetComponent<Draggable>().shapeID = currentID;
+
+            // Placement
+            SetRandomPosition(slotRect, slotsContainer, placedSlots);
+            SetRandomPosition(itemRect, itemsContainer, placedItems);
+        }
+    }
+
+    void SetRandomPosition(RectTransform rectTransform, RectTransform container, List<Rect> placedRects)
+    {
+        // Calcul de la taile de l'objet
+        float realWidth = rectTransform.rect.width * rectTransform.localScale.x;
+        float realHeight = rectTransform.rect.height * rectTransform.localScale.y;
+
+        // On calcule le centre de l'objet
+        float halfW = realWidth / 2f;
+        float halfH = realHeight / 2f;
+        
+        // Limite de la zone
+        float minX = container.rect.xMin + halfW;
+        float maxX = container.rect.xMax - halfW;
+        float minY = container.rect.yMin + halfH;
+        float maxY = container.rect.yMax - halfH;
+
+        int maxAttempts = 100; // Limite du nombre de tentatives de placement
+        
+        bool positionFound = false;
+        float randomX = 0f, randomY = 0f;
+        Rect newRect = new();
+
+        // Boucle pour trouver une position libre
+        for (int attempt = 0; attempt < maxAttempts; attempt++)
+        {
+            randomX = Random.Range(minX, maxX);
+            randomY = Random.Range(minY, maxY);
+
+            // On crée une "zone" autour de l'objet
+            newRect = new Rect(
+                randomX - halfW - (padding / 2f),
+                randomY - halfH - (padding / 2f),
+                realWidth + padding,
+                realHeight + padding
+            );
+
+            // Vérifie si cette zone rentre en collision avec un objet déjà placé
+            bool overlaps = false;
+            foreach (Rect placed in placedRects)
+            {
+                if (newRect.Overlaps(placed))
+                {
+                    overlaps = true;
+                    break;
+                }
+            }
+
+            if (!overlaps)
+            {
+                positionFound = true;
+                break; // On a trouvé une place, on sort de la boucle
+            }
+        }
+
+        // Cas où aucune position n'a été trouvée après le nombre maximum de tentatives
+        if (!positionFound)
+        {
+            Debug.LogWarning("Manque de place, chevauchement");
+        }
+
+        rectTransform.anchoredPosition = new Vector2(randomX, randomY);
+        placedRects.Add(newRect);
+    }
+}
