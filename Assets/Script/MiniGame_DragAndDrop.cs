@@ -3,16 +3,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 
-public class MiniGame1 : MonoBehaviour
+public class MiniGame_DragAndDrop : MonoBehaviour
 {
     [Header("Liste des Sprites")]
     public List<Sprite> allSprites;
 
     [Header("Configuration")]
     public int itemsToGenerate = 5;
-    public float scaleMultiplier = 4f;
-
-    [Tooltip("Marge (pixels) entre les objets")]
+    public float scaleMultiplier = 5f;
     public float padding = 10f;
 
     [Header("Prefabs")]
@@ -23,30 +21,29 @@ public class MiniGame1 : MonoBehaviour
     public RectTransform slotsContainer;
     public RectTransform itemsContainer;
 
-    void OnEnable()
-    {
-        InitMinigame();
-    }
+    public MinigameManager manager;
+    private int itemsPlacedCorrectly = 0;
 
+    // Appelée par "OnGameStart" de MinigameManager.cs
     public void InitMinigame()
     {
-        // On détruit les anciens objets/slots pour en créer des nouveaux
+        itemsPlacedCorrectly = 0;
+
         foreach (Transform child in slotsContainer) Destroy(child.gameObject);
         foreach (Transform child in itemsContainer) Destroy(child.gameObject);
 
-        // On choisit aléatoirement les sprites
         List<Sprite> shuffledSprites = allSprites.OrderBy(x => Random.value).ToList();
         List<Sprite> randomSprites = shuffledSprites.Take(itemsToGenerate).ToList();
 
-        // Liste des zones déjà occupées
         List<Rect> placedSlots = new();
         List<Rect> placedItems = new();
 
+        // Génération des slots et des items
         for (int item = 0; item < randomSprites.Count; item++)
         {
             int currentID = item;
 
-            // Slot
+            // --- Slot ---
             GameObject newSlot = Instantiate(slotPrefab, slotsContainer);
             newSlot.name = "Slot_" + item;
 
@@ -57,9 +54,12 @@ public class MiniGame1 : MonoBehaviour
 
             RectTransform slotRect = newSlot.GetComponent<RectTransform>();
             slotRect.localScale = new Vector3(scaleMultiplier, scaleMultiplier, 1f);
-            newSlot.GetComponent<DropSlot>().expectedShapeID = currentID;
 
-            // Item
+            DropSlot dropScript = newSlot.GetComponent<DropSlot>();
+            dropScript.expectedShapeID = currentID;
+            dropScript.gameLogic = this;
+
+            // --- Item ---
             GameObject newItem = Instantiate(itemPrefab, itemsContainer);
             newItem.name = "Item_" + item;
 
@@ -71,9 +71,17 @@ public class MiniGame1 : MonoBehaviour
             itemRect.localScale = new Vector3(scaleMultiplier, scaleMultiplier, 1f);
             newItem.GetComponent<Draggable>().shapeID = currentID;
 
-            // Placement
             SetRandomPosition(slotRect, slotsContainer, placedSlots);
             SetRandomPosition(itemRect, itemsContainer, placedItems);
+        }
+    }
+
+    public void OnItemPlacedCorrectly()
+    {
+        itemsPlacedCorrectly++;
+        if (itemsPlacedCorrectly >= itemsToGenerate)
+        {
+            manager.WinGame();
         }
     }
 
@@ -86,7 +94,7 @@ public class MiniGame1 : MonoBehaviour
         // On calcule le centre de l'objet
         float halfW = realWidth / 2f;
         float halfH = realHeight / 2f;
-        
+
         // Limite de la zone
         float minX = container.rect.xMin + halfW;
         float maxX = container.rect.xMax - halfW;
@@ -94,7 +102,7 @@ public class MiniGame1 : MonoBehaviour
         float maxY = container.rect.yMax - halfH;
 
         int maxAttempts = 100; // Limite du nombre de tentatives de placement
-        
+
         bool positionFound = false;
         float randomX = 0f, randomY = 0f;
         Rect newRect = new();

@@ -441,7 +441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 3737897332693287829, guid: c287591a2f063ee4db48365701110239, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 1428205517}
   - component: {fileID: 1428205516}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MiniGames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56451ac77f0f46b44adf79814af8343d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnterMiniGame
-  minigamePanel: {fileID: 2079644483}
+  manager: {fileID: 2079644487}
 --- !u!212 &1843771838
 SpriteRenderer:
   serializedVersion: 3
@@ -1059,7 +1059,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.31942323, g: 0.8107267, b: 0.83396226, a: 0}
+  m_Color: {r: 0.31942323, g: 0.8107267, b: 0.83396226, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1083,12 +1083,12 @@ GameObject:
   - component: {fileID: 2079644487}
   - component: {fileID: 2079644488}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: MiniGameDragAndDrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2079644484
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5018867, g: 0.5018867, b: 0.5018867, a: 0.5882353}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1164,6 +1164,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MinigameTimer
   timerBar: {fileID: 2124058654}
   maxTime: 30
+  onGameStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2079644488}
+        m_TargetAssemblyTypeName: MiniGame_DragAndDrop, Assembly-CSharp
+        m_MethodName: InitMinigame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onGameWon:
+    m_PersistentCalls:
+      m_Calls: []
+  onGameLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2079644488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1193,6 +1214,7 @@ MonoBehaviour:
   itemPrefab: {fileID: 5594282953333024974, guid: 13af70b38aa3eea46a30e3fffab81eae, type: 3}
   slotsContainer: {fileID: 868431344}
   itemsContainer: {fileID: 2091386357}
+  manager: {fileID: 2079644487}
 --- !u!1 &2091386356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,7 +1277,7 @@ RectTransform:
   m_GameObject: {fileID: 2124058652}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.98, y: 0.04, z: 1}
+  m_LocalScale: {x: 0.98, y: 0.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2079644484}
@@ -1264,7 +1286,7 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.985}
+  m_Pivot: {x: 0.5, y: 0.98}
 --- !u!114 &2124058654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1285,7 +1307,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 3737897332693287829, guid: c287591a2f063ee4db48365701110239, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1

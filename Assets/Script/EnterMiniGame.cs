@@ -2,20 +2,13 @@ using UnityEngine;
 
 public class EnterMiniGame : MonoBehaviour
 {
-    public GameObject minigamePanel;
-
-
-    void Start()
-    {
-        if (minigamePanel != null)
-            minigamePanel.SetActive(false);
-    }
+    public MinigameManager manager;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && manager != null)
         {
-            minigamePanel.SetActive(true);
+            manager.OpenMinigame();
             Cursor.visible = true;
         }
     }
