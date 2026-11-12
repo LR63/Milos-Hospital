@@ -3,10 +3,18 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 
+// Classe pour associer un Sprite d'item avec un Sprite de slot
+[System.Serializable]
+public class ItemData
+{
+    public Sprite itemSprite;
+    public Sprite slotSprite;
+}
+
 public class MiniGame_DragAndDrop : MonoBehaviour
 {
-    [Header("Liste des Sprites")]
-    public List<Sprite> allSprites;
+    [Header("Liste des Objets")]
+    public List<ItemData> allItems; 
 
     [Header("Configuration")]
     public int itemsToGenerate = 5;
@@ -32,14 +40,15 @@ public class MiniGame_DragAndDrop : MonoBehaviour
         foreach (Transform child in slotsContainer) Destroy(child.gameObject);
         foreach (Transform child in itemsContainer) Destroy(child.gameObject);
 
-        List<Sprite> shuffledSprites = allSprites.OrderBy(x => Random.value).ToList();
-        List<Sprite> randomSprites = shuffledSprites.Take(itemsToGenerate).ToList();
+        // On choisit les items à générer aléatoirement
+        List<ItemData> shuffledItems = allItems.OrderBy(x => Random.value).ToList();
+        List<ItemData> randomItems = shuffledItems.Take(itemsToGenerate).ToList();
 
         List<Rect> placedSlots = new();
         List<Rect> placedItems = new();
 
         // Génération des slots et des items
-        for (int item = 0; item < randomSprites.Count; item++)
+        for (int item = 0; item < randomItems.Count; item++)
         {
             int currentID = item;
 
@@ -48,8 +57,8 @@ public class MiniGame_DragAndDrop : MonoBehaviour
             newSlot.name = "Slot_" + item;
 
             Image slotImg = newSlot.GetComponent<Image>();
-            slotImg.sprite = randomSprites[item];
-            slotImg.color = new Color(0, 0, 0, 0.5f);
+            slotImg.sprite = randomItems[item].slotSprite;
+            slotImg.color = Color.white;
             slotImg.SetNativeSize();
 
             RectTransform slotRect = newSlot.GetComponent<RectTransform>();
@@ -64,7 +73,7 @@ public class MiniGame_DragAndDrop : MonoBehaviour
             newItem.name = "Item_" + item;
 
             Image itemImg = newItem.GetComponent<Image>();
-            itemImg.sprite = randomSprites[item];
+            itemImg.sprite = randomItems[item].itemSprite;
             itemImg.SetNativeSize();
 
             RectTransform itemRect = newItem.GetComponent<RectTransform>();

@@ -5,8 +5,9 @@ using UnityEngine.Events;
 public class MinigameManager : MonoBehaviour
 {
     [Header("Chrono")]
-    public Image timerBar;
+    public RectTransform timerBar;
     public float maxTime = 10f;
+    private float initialTimerWidth;
 
     [Header("Événements personnalisés")]
     public UnityEvent onGameStart; // Fonction init du mini-jeu
@@ -20,7 +21,15 @@ public class MinigameManager : MonoBehaviour
         gameObject.SetActive(true);
         currentTime = maxTime;
         isPlaying = true;
-        if (timerBar != null) timerBar.fillAmount = 1f;
+        if (timerBar != null)
+        {
+            if (initialTimerWidth == 0)
+            {
+                initialTimerWidth = timerBar.rect.width;
+            }
+            timerBar.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, initialTimerWidth);
+        }
+
         onGameStart.Invoke();
     }
 
@@ -31,7 +40,8 @@ public class MinigameManager : MonoBehaviour
         if (currentTime > 0)
         {
             currentTime -= Time.deltaTime;
-            timerBar.fillAmount = currentTime / maxTime;
+            float percent = currentTime / maxTime;
+            timerBar.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, initialTimerWidth * percent);
         }
         else
         {
@@ -52,7 +62,7 @@ public class MinigameManager : MonoBehaviour
     {
         if (!isPlaying) return;
         isPlaying = false;
-        timerBar.fillAmount = 0;
+        timerBar.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 0);
         Debug.Log("Défaite");
         onGameLost.Invoke();
         CloseMinigame();
