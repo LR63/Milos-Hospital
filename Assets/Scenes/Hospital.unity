@@ -1338,7 +1338,7 @@ MonoBehaviour:
   - itemSprite: {fileID: 1641749230627347584, guid: f7a85eaf11189e640a489bb93bfc4cc3, type: 3}
     slotSprite: {fileID: 6043587740773402447, guid: 1ddca14ffce27b34385c2eb174be97c8, type: 3}
   itemsToGenerate: 9
-  scaleMultiplier: 3
+  scaleMultiplier: 2.5
   padding: 20
   slotPrefab: {fileID: 1352701442259317395, guid: f3d6de6f48e6c3a48af10bdd16c57328, type: 3}
   itemPrefab: {fileID: 5594282953333024974, guid: 13af70b38aa3eea46a30e3fffab81eae, type: 3}
