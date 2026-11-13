@@ -10,15 +10,16 @@ public class MinigameManager : MonoBehaviour
     private float initialTimerWidth;
 
     [Header("Événements personnalisés")]
-    public UnityEvent onGameStart; // Fonction init du mini-jeu
-    public UnityEvent onGameWon;   // Inutilisé pour le moment, servira pour gérer la victoire
-    public UnityEvent onGameLost;  // Inutilisé pour le moment, servira pour gérer la défaite
+    public UnityEvent onGameStart; // Fonction init du mini-jeu, à changer selon le mini-jeu
+
+    [Header("Panel du mini-jeu")]
+    public GameObject minigamePanel; // Panel du mini-jeu, à changer selon le mini-jeu
 
     private float currentTime;
     private bool isPlaying = false;
+    public bool IsPlaying => isPlaying; // Propriété publique qui équivaut à un getter pour isPlaying
     public void OpenMinigame()
     {
-        gameObject.SetActive(true);
         currentTime = maxTime;
         isPlaying = true;
         if (timerBar != null)
@@ -31,6 +32,7 @@ public class MinigameManager : MonoBehaviour
         }
 
         onGameStart.Invoke();
+        minigamePanel.SetActive(true);
     }
 
     void Update()
@@ -49,12 +51,15 @@ public class MinigameManager : MonoBehaviour
         }
     }
 
+    public void ShowMinigame() => minigamePanel.SetActive(true);
+
+    public void HideMinigame() => minigamePanel.SetActive(false);
+
     public void WinGame()
     {
         if (!isPlaying) return;
         isPlaying = false;
         Debug.Log("Victoire");
-        onGameWon.Invoke();
         CloseMinigame();
     }
 
@@ -64,13 +69,12 @@ public class MinigameManager : MonoBehaviour
         isPlaying = false;
         timerBar.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 0);
         Debug.Log("Défaite");
-        onGameLost.Invoke();
         CloseMinigame();
     }
 
     public void CloseMinigame()
     {
         isPlaying = false;
-        gameObject.SetActive(false);
+        minigamePanel.SetActive(false);
     }
 }

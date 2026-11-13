@@ -8,8 +8,22 @@ public class EnterMiniGame : MonoBehaviour
     {
         if (other.CompareTag("Player") && manager != null)
         {
-            manager.OpenMinigame();
-            Cursor.visible = true;
+            if (manager.IsPlaying)
+            {
+                manager.ShowMinigame();
+            }
+            else
+            {
+                manager.OpenMinigame();
+            }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && manager != null)
+        {
+            manager.HideMinigame();
         }
     }
 }

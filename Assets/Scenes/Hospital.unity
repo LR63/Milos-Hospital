@@ -909,6 +909,7 @@ GameObject:
   - component: {fileID: 1428205518}
   - component: {fileID: 1428205517}
   - component: {fileID: 1428205516}
+  - component: {fileID: 1428205520}
   m_Layer: 5
   m_Name: MiniGames
   m_TagString: Untagged
@@ -1001,6 +1002,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1428205520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428205515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8bd4a7176780f340896e860b0aa16db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MinigameTimer
+  timerBar: {fileID: 2124058653}
+  maxTime: 30
+  onGameStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2079644488}
+        m_TargetAssemblyTypeName: MiniGame_DragAndDrop, Assembly-CSharp
+        m_MethodName: InitMinigame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  minigamePanel: {fileID: 2079644483}
 --- !u!1 &1843771834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56451ac77f0f46b44adf79814af8343d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnterMiniGame
-  manager: {fileID: 2079644487}
+  manager: {fileID: 1428205520}
 --- !u!212 &1843771838
 SpriteRenderer:
   serializedVersion: 3
@@ -1229,7 +1260,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2079644484}
   - component: {fileID: 2079644486}
-  - component: {fileID: 2079644487}
   - component: {fileID: 2079644488}
   m_Layer: 5
   m_Name: MiniGameDragAndDrop
@@ -1271,41 +1301,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079644483}
   m_CullTransparentMesh: 1
---- !u!114 &2079644487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2079644483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8bd4a7176780f340896e860b0aa16db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MinigameTimer
-  timerBar: {fileID: 2124058653}
-  maxTime: 30
-  onGameStart:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2079644488}
-        m_TargetAssemblyTypeName: MiniGame_DragAndDrop, Assembly-CSharp
-        m_MethodName: InitMinigame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onGameWon:
-    m_PersistentCalls:
-      m_Calls: []
-  onGameLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2079644488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1344,7 +1339,7 @@ MonoBehaviour:
   itemPrefab: {fileID: 5594282953333024974, guid: 13af70b38aa3eea46a30e3fffab81eae, type: 3}
   slotsContainer: {fileID: 868431344}
   itemsContainer: {fileID: 2091386357}
-  manager: {fileID: 2079644487}
+  manager: {fileID: 1428205520}
 --- !u!1 &2091386356
 GameObject:
   m_ObjectHideFlags: 0
