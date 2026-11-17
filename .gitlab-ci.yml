@@ -3,7 +3,9 @@ stages:
 
 sync_to_github:
   stage: mirror
-  image: alpine/git:latest
+  image:
+    name: alpine/git:latest
+    entrypoint: [""]
   variables:
     # Récupère tout l'historique et toutes les branches pour un miroir propre
     GIT_STRATEGY: clone
