@@ -13,7 +13,7 @@ sync_to_github:
     GIT_SSL_NO_VERIFY: "true"
   script:
     - git remote add github https://LR63:${GITHUB_TOKEN}@github.com/LR63/Milos-Hospital.git
-    - git push github --all --force
+    - git push github HEAD:main --force
     - git push github --tags --force
   only:
     # Déclenche la synchronisation sur vos branches principales (ex: main, develop) et les tags
