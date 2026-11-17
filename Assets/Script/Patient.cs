@@ -56,7 +56,7 @@ namespace Script
                     break;
                 case WalkingOut:
                     // Leaving after treatment
-                    Movement.Move(new Vector2(-1,0), moveSpeed,_rigidbody2D);
+                    Movement.Move(new Vector2(-1, 0), moveSpeed, _rigidbody2D);
                     if (_rigidbody2D.position.x < -11) state = Exited;
                     break;
                 case Exited:
