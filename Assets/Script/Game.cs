@@ -15,6 +15,8 @@ namespace Script
         void Start()
         {
             GeneratePatients();
+            GameObject patientTest = Instantiate(patientPrefab, new Vector2(0, 0), Quaternion.identity);
+            patientTest.GetComponent<Patient>().state = PatientStates.Waiting;
         }
 
         // Update is called once per frame
@@ -48,7 +50,6 @@ namespace Script
                         break;
                     case PatientStates.Exited:
                         _remainingPatients--;
-                        Destroy(patient.gameObject);
                         _patients.Remove(patient);
                         break;
                     default:

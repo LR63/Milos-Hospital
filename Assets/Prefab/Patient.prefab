@@ -179,5 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b248d1f1960752b6f8e2fcde99244aca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 7
+  moveSpeed: 5
   state: 3
+  timeBeforeDeath: 10
+  PabloPrefab: {fileID: 244109169023906759, guid: efa51b799e74af242871a0a41c59e551, type: 3}
