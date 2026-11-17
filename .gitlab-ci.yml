@@ -1,0 +1,18 @@
+stages:
+  - mirror
+
+sync_to_github:
+  stage: mirror
+  image: alpine/git:latest
+  variables:
+    # Récupère tout l'historique et toutes les branches pour un miroir propre
+    GIT_STRATEGY: clone
+    GIT_DEPTH: 0
+  script:
+    - git remote add github https://LR63:${GITHUB_TOKEN}@github.com/LR63/Milos-Hospital.git
+    - git push github --all --force
+    - git push github --tags --force
+  only:
+    # Déclenche la synchronisation sur vos branches principales (ex: main, develop) et les tags
+    - main
+    - tags
