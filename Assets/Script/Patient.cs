@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 using static Script.PatientStates;
+using TMPro;
 
 namespace Script
 {
@@ -16,12 +17,18 @@ namespace Script
 
         private Rigidbody2D _rigidbody2D;
         private float timer = 0f;
+        private TMP_Text _textMeshPro;
 
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Start()
         {
             _rigidbody2D = GetComponent<Rigidbody2D>();
+            _textMeshPro = GetComponentInChildren<TMP_Text>();
+            if (_textMeshPro == null)
+            {
+                Debug.LogError("TMP_Text component not found in children.");
+            }
             // Debug.Log(state);
         }
 
@@ -33,11 +40,12 @@ namespace Script
                 case Waiting:
                     // Waiting for an empty room
                     timer += Time.deltaTime;
-                    Debug.Log("Temps écoulé : " + timer);
                     if (timer > timeBeforeDeath)
                     {
                         state = Dead;
                     }
+                    if (timeBeforeDeath - timer < 0) _textMeshPro.SetText("0");
+                    else _textMeshPro.SetText("{0:0}", timeBeforeDeath - timer);
                     break;
                 case Walking:
                     // Walking toward a room
