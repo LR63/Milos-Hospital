@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: bfae480de81050e4c872927a5c64c026
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8775596751961691819
+    second: Patient2_healed-Sheet_0
+  - first:
+      213: -7286454477485331243
+    second: Patient2_healed-Sheet_1
+  - first:
+      213: -3240445047183103971
+    second: Patient2_healed-Sheet_2
+  - first:
+      213: -8686273687460635677
+    second: Patient2_healed-Sheet_3
+  - first:
+      213: -6232350078791864340
+    second: Patient2_healed-Sheet_4
+  - first:
+      213: -6909869492290010306
+    second: Patient2_healed-Sheet_5
+  - first:
+      213: 4538990850781614093
+    second: Patient2_healed-Sheet_6
+  - first:
+      213: 657154682863146244
+    second: Patient2_healed-Sheet_7
+  - first:
+      213: -2707351417678344779
+    second: Patient2_healed-Sheet_8
+  - first:
+      213: 5418713623636340054
+    second: Patient2_healed-Sheet_9
+  - first:
+      213: -3053309885093174730
+    second: Patient2_healed-Sheet_10
+  - first:
+      213: -6680153277037709887
+    second: Patient2_healed-Sheet_11
+  - first:
+      213: -5482630608885808847
+    second: Patient2_healed-Sheet_12
+  - first:
+      213: 6713070597263807227
+    second: Patient2_healed-Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 384
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559604bcf31d63680800000000000000
+      internalID: -8775596751961691819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 384
+        width: 56
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcae6d024051ea90800000000000000
+      internalID: -7286454477485331243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 385
+        width: 56
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d182a70f560a703d0800000000000000
+      internalID: -3240445047183103971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 385
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb16156a18247780800000000000000
+      internalID: -8686273687460635677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 255
+        width: 47
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefabbdaf9e3289a0800000000000000
+      internalID: -6232350078791864340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 255
+        width: 40
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33cebb8e463b10a0800000000000000
+      internalID: -6909869492290010306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 255
+        width: 47
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d001693512cbdfe30800000000000000
+      internalID: 4538990850781614093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 255
+        width: 40
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405da8ac3beae1900800000000000000
+      internalID: 657154682863146244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 127
+        width: 47
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdc123da3e8d6ad0800000000000000
+      internalID: -2707351417678344779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 127
+        width: 40
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65de964c453233b40800000000000000
+      internalID: 5418713623636340054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 127
+        width: 47
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63225dd26d670a5d0800000000000000
+      internalID: -3053309885093174730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 127
+        width: 40
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5710dccf35b43a0800000000000000
+      internalID: -6680153277037709887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1318daa6288c9e3b0800000000000000
+      internalID: -5482630608885808847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2_healed-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 56
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2570e042e992d50800000000000000
+      internalID: 6713070597263807227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Patient2_healed-Sheet_0: -8775596751961691819
+      Patient2_healed-Sheet_1: -7286454477485331243
+      Patient2_healed-Sheet_10: -3053309885093174730
+      Patient2_healed-Sheet_11: -6680153277037709887
+      Patient2_healed-Sheet_12: -5482630608885808847
+      Patient2_healed-Sheet_13: 6713070597263807227
+      Patient2_healed-Sheet_2: -3240445047183103971
+      Patient2_healed-Sheet_3: -8686273687460635677
+      Patient2_healed-Sheet_4: -6232350078791864340
+      Patient2_healed-Sheet_5: -6909869492290010306
+      Patient2_healed-Sheet_6: 4538990850781614093
+      Patient2_healed-Sheet_7: 657154682863146244
+      Patient2_healed-Sheet_8: -2707351417678344779
+      Patient2_healed-Sheet_9: 5418713623636340054
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
